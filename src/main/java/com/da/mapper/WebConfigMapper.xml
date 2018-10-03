@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.da.mapper.WebConfigMapper" >
+  <resultMap id="BaseResultMap" type="com.da.pojo.WebConfig" >
+    <id column="id" property="id" jdbcType="CHAR" />
+    <result column="seq_id" property="seqId" jdbcType="CHAR" />
+    <result column="website_name" property="websiteName" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, seq_id, website_name
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from web_config
+    where id = #{id,jdbcType=CHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from web_config
+    where id = #{id,jdbcType=CHAR}
+  </delete>
+  <insert id="insert" parameterType="com.da.pojo.WebConfig" >
+    insert into web_config (id, seq_id, website_name
+      )
+    values (#{id,jdbcType=CHAR}, #{seqId,jdbcType=CHAR}, #{websiteName,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.da.pojo.WebConfig" >
+    insert into web_config
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="seqId != null" >
+        seq_id,
+      </if>
+      <if test="websiteName != null" >
+        website_name,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=CHAR},
+      </if>
+      <if test="seqId != null" >
+        #{seqId,jdbcType=CHAR},
+      </if>
+      <if test="websiteName != null" >
+        #{websiteName,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.da.pojo.WebConfig" >
+    update web_config
+    <set >
+      <if test="seqId != null" >
+        seq_id = #{seqId,jdbcType=CHAR},
+      </if>
+      <if test="websiteName != null" >
+        website_name = #{websiteName,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.da.pojo.WebConfig" >
+    update web_config
+    set seq_id = #{seqId,jdbcType=CHAR},
+      website_name = #{websiteName,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=CHAR}
+  </update>
+</mapper>

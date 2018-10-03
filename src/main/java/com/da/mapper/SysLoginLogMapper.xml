@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.da.mapper.SysLoginLogMapper" >
+  <resultMap id="BaseResultMap" type="com.da.pojo.SysLoginLog" >
+    <id column="id" property="id" jdbcType="CHAR" />
+    <result column="seq_id" property="seqId" jdbcType="CHAR" />
+    <result column="login_id" property="loginId" jdbcType="CHAR" />
+    <result column="login_at" property="loginAt" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, seq_id, login_id, login_at
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from sys_login_log
+    where id = #{id,jdbcType=CHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from sys_login_log
+    where id = #{id,jdbcType=CHAR}
+  </delete>
+  <insert id="insert" parameterType="com.da.pojo.SysLoginLog" >
+    insert into sys_login_log (id, seq_id, login_id, login_at
+      )
+    values (#{id,jdbcType=CHAR}, #{seqId,jdbcType=CHAR}, #{loginId,jdbcType=CHAR}, #{loginAt,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.da.pojo.SysLoginLog" >
+    insert into sys_login_log
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="seqId != null" >
+        seq_id,
+      </if>
+      <if test="loginId != null" >
+        login_id,
+      </if>
+      <if test="loginAt != null" >
+        login_at,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=CHAR},
+      </if>
+      <if test="seqId != null" >
+        #{seqId,jdbcType=CHAR},
+      </if>
+      <if test="loginId != null" >
+        #{loginId,jdbcType=CHAR},
+      </if>
+      <if test="loginAt != null" >
+        #{loginAt,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.da.pojo.SysLoginLog" >
+    update sys_login_log
+    <set >
+      <if test="seqId != null" >
+        seq_id = #{seqId,jdbcType=CHAR},
+      </if>
+      <if test="loginId != null" >
+        login_id = #{loginId,jdbcType=CHAR},
+      </if>
+      <if test="loginAt != null" >
+        login_at = #{loginAt,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.da.pojo.SysLoginLog" >
+    update sys_login_log
+    set seq_id = #{seqId,jdbcType=CHAR},
+      login_id = #{loginId,jdbcType=CHAR},
+      login_at = #{loginAt,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=CHAR}
+  </update>
+</mapper>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.da.mapper.SysDicItemMapper" >
+  <resultMap id="BaseResultMap" type="com.da.pojo.SysDicItem" >
+    <id column="id" property="id" jdbcType="CHAR" />
+    <result column="seq_id" property="seqId" jdbcType="CHAR" />
+    <result column="text" property="text" jdbcType="VARCHAR" />
+    <result column="value" property="value" jdbcType="VARCHAR" />
+    <result column="type_id" property="typeId" jdbcType="CHAR" />
+    <result column="sort" property="sort" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, seq_id, text, value, type_id, sort
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from sys_dic_item
+    where id = #{id,jdbcType=CHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from sys_dic_item
+    where id = #{id,jdbcType=CHAR}
+  </delete>
+  <insert id="insert" parameterType="com.da.pojo.SysDicItem" >
+    insert into sys_dic_item (id, seq_id, text, value, 
+      type_id, sort)
+    values (#{id,jdbcType=CHAR}, #{seqId,jdbcType=CHAR}, #{text,jdbcType=VARCHAR}, #{value,jdbcType=VARCHAR}, 
+      #{typeId,jdbcType=CHAR}, #{sort,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.da.pojo.SysDicItem" >
+    insert into sys_dic_item
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="seqId != null" >
+        seq_id,
+      </if>
+      <if test="text != null" >
+        text,
+      </if>
+      <if test="value != null" >
+        value,
+      </if>
+      <if test="typeId != null" >
+        type_id,
+      </if>
+      <if test="sort != null" >
+        sort,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=CHAR},
+      </if>
+      <if test="seqId != null" >
+        #{seqId,jdbcType=CHAR},
+      </if>
+      <if test="text != null" >
+        #{text,jdbcType=VARCHAR},
+      </if>
+      <if test="value != null" >
+        #{value,jdbcType=VARCHAR},
+      </if>
+      <if test="typeId != null" >
+        #{typeId,jdbcType=CHAR},
+      </if>
+      <if test="sort != null" >
+        #{sort,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.da.pojo.SysDicItem" >
+    update sys_dic_item
+    <set >
+      <if test="seqId != null" >
+        seq_id = #{seqId,jdbcType=CHAR},
+      </if>
+      <if test="text != null" >
+        text = #{text,jdbcType=VARCHAR},
+      </if>
+      <if test="value != null" >
+        value = #{value,jdbcType=VARCHAR},
+      </if>
+      <if test="typeId != null" >
+        type_id = #{typeId,jdbcType=CHAR},
+      </if>
+      <if test="sort != null" >
+        sort = #{sort,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.da.pojo.SysDicItem" >
+    update sys_dic_item
+    set seq_id = #{seqId,jdbcType=CHAR},
+      text = #{text,jdbcType=VARCHAR},
+      value = #{value,jdbcType=VARCHAR},
+      type_id = #{typeId,jdbcType=CHAR},
+      sort = #{sort,jdbcType=INTEGER}
+    where id = #{id,jdbcType=CHAR}
+  </update>
+</mapper>

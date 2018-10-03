@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.da.mapper.MenuMapper" >
+  <resultMap id="BaseResultMap" type="com.da.pojo.Menu" >
+    <id column="id" property="id" jdbcType="CHAR" />
+    <result column="seq_id" property="seqId" jdbcType="CHAR" />
+    <result column="menu_name" property="menuName" jdbcType="VARCHAR" />
+    <result column="parent_id" property="parentId" jdbcType="CHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, seq_id, menu_name, parent_id
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from menu
+    where id = #{id,jdbcType=CHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from menu
+    where id = #{id,jdbcType=CHAR}
+  </delete>
+  <insert id="insert" parameterType="com.da.pojo.Menu" >
+    insert into menu (id, seq_id, menu_name, 
+      parent_id)
+    values (#{id,jdbcType=CHAR}, #{seqId,jdbcType=CHAR}, #{menuName,jdbcType=VARCHAR}, 
+      #{parentId,jdbcType=CHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.da.pojo.Menu" >
+    insert into menu
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="seqId != null" >
+        seq_id,
+      </if>
+      <if test="menuName != null" >
+        menu_name,
+      </if>
+      <if test="parentId != null" >
+        parent_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=CHAR},
+      </if>
+      <if test="seqId != null" >
+        #{seqId,jdbcType=CHAR},
+      </if>
+      <if test="menuName != null" >
+        #{menuName,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null" >
+        #{parentId,jdbcType=CHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.da.pojo.Menu" >
+    update menu
+    <set >
+      <if test="seqId != null" >
+        seq_id = #{seqId,jdbcType=CHAR},
+      </if>
+      <if test="menuName != null" >
+        menu_name = #{menuName,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null" >
+        parent_id = #{parentId,jdbcType=CHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=CHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.da.pojo.Menu" >
+    update menu
+    set seq_id = #{seqId,jdbcType=CHAR},
+      menu_name = #{menuName,jdbcType=VARCHAR},
+      parent_id = #{parentId,jdbcType=CHAR}
+    where id = #{id,jdbcType=CHAR}
+  </update>
+</mapper>
