@@ -319,5 +319,163 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+/* 论文著作 */
+.thesis-container {
+  margin-top: 80px;
+}
+.thesis-container>.panel-center {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.thesis-container .condition{
+
+}
+.thesis-container .condition .c-row {
+  margin-bottom: 30px;
+}
+.thesis-container .condition .c-row:last-child {
+  margin-bottom: 0;
+}
+.thesis-container .condition .c-row>.name{
+  float: left;
+}
+.thesis-container .condition .c-row>ul {
+  margin: 0 0 0 50px;
+  padding: 0;
+  list-style: none;
+}
+.thesis-container .condition .c-row>ul>li{
+  float: left;
+  padding-left: 34px;
+  color: #222;
+  cursor: pointer;
+}
+.thesis-container .condition .c-row>ul>li.active,
+.thesis-container .condition .c-row>ul>li:hover {
+  color: #015db2;
+}
+
+.thesis-container .thesis-list {
+  margin-top: 60px;
+  padding: 0 20px;
+}
+.thesis-container .thesis-list>ul{
+  margin-bottom: 30px;
+  border-bottom: 1px dotted rgba(0,0,0,0.3);
+}
+.thesis-container .thesis-list>ul>li{
+  padding-bottom: 30px;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.5;
+}
+
+.thesis-container .thesis-list>ul>li>.oper {
+  margin-left: 10px;
+}
+.thesis-container .thesis-list>ul>li>.oper>a{
+  color: #015db2;
+}
+
+/* 科研项目 */
+.project-container {
+  margin-top: 80px;
+}
+.project-container>.container-center {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.project-container .level-module {
+
+}
+.project-container .level-module>header {
+  padding-bottom: 16px;
+  color: #015db2;
+  font-size: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.project-container .level-module .project-list {
+  margin-bottom: 30px;
+}
+.project-container .level-module .project-list>.project-panel{
+  float: left;
+  width: calc(50% - 20px);
+  margin-top: 30px;
+  padding-bottom: 26px;
+  border-bottom: 1px dotted #ddd;
+}
+.project-container .level-module .project-list>.project-panel:nth-child(2n) {
+  margin-left: 20px;
+}
+.project-container .level-module .project-list>.project-panel:nth-child(2n+1) {
+  margin-right: 20px;
+}
+.level-module .project-list>.project-panel>.p-title {
+  margin-bottom: 16px;
+  color: #222222;
+  font-size: 16px;
+}
+.level-module .project-list>.project-panel>p.intro {
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #666;
+}
+
+.level-module .project-list>.project-panel>.time{
+  color: #666;
+  font-size: 14px;
+}
+.co-enterprise {
+  width: 80%;
+  margin: 80px auto;
+}
+.co-enterprise>header {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: #222;
+}
+.co-enterprise>table.enterprise{
+  border: 0;
+
+}
+.co-enterprise>.enterprise>tbody>tr{
+
+}
+.co-enterprise>.enterprise>tbody>tr>td {
+  width: 150px;
+  height: 86px;
+  padding: 0;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+.co-enterprise>.enterprise>tbody>tr>td:nth-child(8n){
+  border-right: 0;
+}
+.co-enterprise>.enterprise>tbody>tr:last-child>td {
+  border-bottom: 0;
+}
+.co-enterprise>.enterprise>tbody>tr>td>img {
+  max-width: 150px;
+  max-height: 86px;
+}
+
+/* 新闻资讯 */
+
+
+
+
+
+
+
 
 

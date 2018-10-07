@@ -14,6 +14,10 @@ body {
   font-family: Microsoft YaHei;
   font-size: 16px;
 }
+ul {
+  margin: 0;
+  padding: 0;
+}
 .header {
   height: 110px;
   background: #fff;
@@ -128,6 +132,21 @@ body {
   -webkit-background-size: cover;
   background-size: cover;
   background: url("/images/researchDirectionNav.jpg") no-repeat center;
+}
+.nav-panel.nav-thesis {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("/images/thesisNav.jpg") no-repeat center;
+}
+.nav-panel.nav-project {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("/images/projectNav.jpg") no-repeat center;
+}
+.nav-panel.nav-news {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("/images/newsNav.jpg") no-repeat center;
 }
 
 .footer {

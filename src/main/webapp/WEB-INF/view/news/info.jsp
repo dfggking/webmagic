@@ -9,14 +9,14 @@
 </head>
 <body>
 <jsp:include page="../common/header.jsp" />
-<div class="nav-panel nav-teamMember">
+<div class="nav-panel nav-news">
   <div class="nav-center">
-    <div class="nav-title clearfix"><span class="label">一一</span><span>团队成员</span></div>
-    <h2 class="nav-h2">Team Members</h2>
+    <div class="nav-title clearfix"><span class="label">一一</span><span>新闻资讯</span></div>
+    <h2 class="nav-h2">News</h2>
     <span class="nav-span">
           <a href="">网站首页</a>
           <a class="dot"> > </a>
-          <a href="">团队成员</a>
+          <a href="">新闻资讯</a>
         </span>
   </div>
 </div>
