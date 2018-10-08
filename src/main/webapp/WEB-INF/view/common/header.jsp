@@ -14,7 +14,7 @@
           <li><a href="/project/info">科研项目</a></li>
           <li><a href="/news/info">新闻资讯</a></li>
           <li><a href="/course/teaching">课程教学</a></li>
-          <li><a href="/dataCode">数据与代码</a></li>
+          <li><a href="/dataCode/info">数据与代码</a></li>
           <li><a href="/admission/info">招生信息</a></li>
         </ul>
       </div>

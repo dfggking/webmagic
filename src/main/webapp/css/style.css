@@ -330,43 +330,18 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.thesis-container .condition{
 
-}
-.thesis-container .condition .c-row {
-  margin-bottom: 30px;
-}
-.thesis-container .condition .c-row:last-child {
-  margin-bottom: 0;
-}
-.thesis-container .condition .c-row>.name{
-  float: left;
-}
-.thesis-container .condition .c-row>ul {
-  margin: 0 0 0 50px;
-  padding: 0;
-  list-style: none;
-}
-.thesis-container .condition .c-row>ul>li{
-  float: left;
-  padding-left: 34px;
-  color: #222;
-  cursor: pointer;
-}
-.thesis-container .condition .c-row>ul>li.active,
-.thesis-container .condition .c-row>ul>li:hover {
-  color: #015db2;
-}
 
 .thesis-container .thesis-list {
   margin-top: 60px;
-  padding: 0 20px;
 }
 .thesis-container .thesis-list>ul{
   margin-bottom: 30px;
+  padding-left: 20px;
   border-bottom: 1px dotted rgba(0,0,0,0.3);
 }
 .thesis-container .thesis-list>ul>li{
+  float: left;
   padding-bottom: 30px;
   font-size: 16px;
   color: #222;
@@ -487,20 +462,216 @@
   float: left;
   width: calc(33.33% - 10px);
   margin-right: 15px;
+  margin-bottom: 60px;
+  cursor: pointer;
 }
-.news-container .news-list>.news-panel:nth-child(n+3){
+.news-container .news-list>.news-panel:nth-child(3n+3){
   margin-right: 0;
 }
-.news-container .news-list>.news-panel>.news-img{
-  
+.news-container .news-list>.news-panel>.news-img {
+  width: 368px;
+  height: 232px;
+}
+.news-container .news-list>.news-panel>h4 {
+  width: 368px;
+  height: 60px;
+  margin-top: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  line-height: 24px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: #222;
+}
+.news-container .news-list>.news-panel>.panel-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 368px;
+  height: 40px;
+}
+.news-container .news-list>.news-panel .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #666;
+}
+.news-container .news-list>.news-panel .time>.icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 7px;
+  background: url("/images/time-logo.png");
+  background-size: contain;
+}
+.news-container .news-list>.news-panel .news-label {
+  color: #fff;
+  font-size: 14px;
+  font-size: 1.4rem;
+  padding: 1px 5px;
+}
+.news-label.type1 {
+  background: #0070bc;
+}
+.news-label.type2 {
+  background: #2db4d4;
 }
 
+/* 招生信息 */
+.admission-container{
+  margin-top: 80px;
+}
+.admission-container>.container-center {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.admission-container .introduction>.content {
+  line-height: 1.5;
+  color: #333;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+.introduction{
+  margin-bottom: 50px;
+}
+.introduction>.content>ul {
+  padding-left: 20px;
+  margin-top: 28px;
+}
+.introduction>.content>ul>li{
+  padding-bottom: 10px;
+}
+.introduction>h4 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #015db2;
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+.admission-info{
+}
+.admission-info>.info-panel {
+  margin-bottom: 20px;
+}
+.admission-info>.info-panel>h3 {
+  padding-bottom: 14px;
+  border-bottom: 1px solid #ddd;
+  font-weight: normal;
+  font-size: 18px;
+  font-size: 1.8rem;
+  color: #015db2;
+}
+.admission-info>.info-panel ul{
+  padding-left: 30px;
+  margin-top: 28px;
+  list-style: decimal;
+}
+.admission-info>.info-panel ul>li{
+  padding-bottom: 10px;
+}
+.admission-info>.info-panel>.panel-body {
+  padding: 18px 0;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #444;
+}
 
+.appendix{
+}
+.appendix>.info-panel {
+  margin-bottom: 20px;
+}
+.appendix>.info-panel>h3 {
+  padding-bottom: 14px;
+  border-bottom: 1px solid #ddd;
+  font-weight: normal;
+  font-size: 18px;
+  font-size: 1.8rem;
+  color: #015db2;
+}
+.appendix>.info-panel ul{
+  padding-left: 30px;
+  margin-top: 28px;
+  list-style: decimal;
+}
+.appendix>.info-panel ul>li{
+  padding-bottom: 10px;
+}
+.appendix>.info-panel>.panel-body {
+  padding: 18px 0;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #444;
+}
 
+/* 数据与代码 */
+.datacode-container {
+  margin-top: 80px;
+}
+.datacode-container>.container-center {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.datacode-container .introduction>.content {
+  line-height: 1.5;
+  color: #333;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
 
+.datacode-container .datacode-list {
+  margin-top: 36px;
+}
+.datacode-container .datacode-list>ul {
+  margin-bottom: 30px;
+  padding-left: 20px;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+}
+.datacode-container .datacode-list>ul>li{
+  float: left;
+  padding-bottom: 30px;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.5;
+}
+.datacode-container .datacode-list>ul>li:last-child{
+  float: right;
+  list-style: none;
+}
 
-
-
-
-
+.datacode-container .datacode-list>ul>li>a {
+  color: #015db2;
+}
+.datacode-container .datacode-list>ul>li .count {
+  margin-right: 5px;
+  font-size: 12px;
+  font-size: 1.2rem;
+  color: #999;
+}
+.datacode-container .datacode-list>ul>li .download {
+  padding: 1px 10px;
+  background: #265BAC;
+  color: #fff;
+  font-size: 14px;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.datacode-container .datacode-info {
+  margin-top: 60px;
+}
+.datacode-container .datacode-info>header {
+  font-size: 20px;
+  font-size: 2rem;
+  color: #015db2;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+}
 

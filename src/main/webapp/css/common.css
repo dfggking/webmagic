@@ -22,8 +22,8 @@ html{
 }
 body {
   font-family: Microsoft YaHei;
-  font-size:12px;
-  font-size:1.2rem;
+  font-size:14px;
+  font-size:1.4rem;
 }
 ul {
   margin: 0;
@@ -157,6 +157,38 @@ ul {
   -webkit-background-size: cover;
   background-size: cover;
   background: url("/images/newsNav.jpg") no-repeat center;
+}
+.nav-panel.nav-admission{
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("/images/admissionNav.jpg") no-repeat center;
+}
+
+.condition{
+}
+.condition .c-row {
+  margin-bottom: 30px;
+}
+.condition .c-row:last-child {
+  margin-bottom: 0;
+}
+.condition .c-row>.name{
+  float: left;
+}
+.condition .c-row>ul {
+  margin: 0 0 0 50px;
+  padding: 0;
+  list-style: none;
+}
+.condition .c-row>ul>li{
+  float: left;
+  padding-left: 34px;
+  color: #222;
+  cursor: pointer;
+}
+.condition .c-row>ul>li.active,
+.condition .c-row>ul>li:hover {
+  color: #015db2;
 }
 
 .footer {
