@@ -14,14 +14,107 @@
     <div class="nav-title clearfix"><span class="label">一一</span><span>新闻资讯</span></div>
     <h2 class="nav-h2">News</h2>
     <span class="nav-span">
-          <a href="">网站首页</a>
-          <a class="dot"> > </a>
-          <a href="">新闻资讯</a>
-        </span>
+      <a href="">网站首页</a>
+      <a class="dot"> > </a>
+      <a href="">新闻资讯</a>
+    </span>
   </div>
 </div>
-<div class="member-container">
-
+<div class="news-container">
+  <div class="container-center">
+    <div class="news-list clearfix">
+      <div class="news-panel">
+        <div class="news-img">
+          <img src="/images/" />
+        </div>
+        <h4>关于拟录取2017新生通知</h4>
+        <div class="time">
+          <span class="icon"></span>
+          <span class="t">2017-10-22</span>
+        </div>
+      </div>
+      <div class="news-panel">
+        <div class="news-img">
+          <img src="/images/" />
+        </div>
+        <h4>关于拟录取2017新生通知</h4>
+        <div class="time">
+          <span class="icon"></span>
+          <span class="t">2017-10-22</span>
+        </div>
+      </div>
+      <div class="news-panel">
+        <div class="news-img">
+          <img src="/images/" />
+        </div>
+        <h4>关于拟录取2017新生通知</h4>
+        <div class="time">
+          <span class="icon"></span>
+          <span class="t">2017-10-22</span>
+        </div>
+      </div>
+      <div class="news-panel">
+        <div class="news-img">
+          <img src="/images/" />
+        </div>
+        <h4>关于拟录取2017新生通知</h4>
+        <div class="time">
+          <span class="icon"></span>
+          <span class="t">2017-10-22</span>
+        </div>
+      </div>
+      <div class="news-panel">
+        <div class="news-img">
+          <img src="/images/" />
+        </div>
+        <h4>关于拟录取2017新生通知</h4>
+        <div class="time">
+          <span class="icon"></span>
+          <span class="t">2017-10-22</span>
+        </div>
+      </div>
+      <div class="news-panel">
+        <div class="news-img">
+          <img src="/images/" />
+        </div>
+        <h4>关于拟录取2017新生通知</h4>
+        <div class="time">
+          <span class="icon"></span>
+          <span class="t">2017-10-22</span>
+        </div>
+      </div>
+      <div class="news-panel">
+        <div class="news-img">
+          <img src="/images/" />
+        </div>
+        <h4>关于拟录取2017新生通知</h4>
+        <div class="time">
+          <span class="icon"></span>
+          <span class="t">2017-10-22</span>
+        </div>
+      </div>
+      <div class="news-panel">
+        <div class="news-img">
+          <img src="/images/" />
+        </div>
+        <h4>关于拟录取2017新生通知</h4>
+        <div class="time">
+          <span class="icon"></span>
+          <span class="t">2017-10-22</span>
+        </div>
+      </div>
+      <div class="news-panel">
+        <div class="news-img">
+          <img src="/images/" />
+        </div>
+        <h4>关于拟录取2017新生通知</h4>
+        <div class="time">
+          <span class="icon"></span>
+          <span class="t">2017-10-22</span>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <jsp:include page="../common/footer.jsp" />
 <script>

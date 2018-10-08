@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 .swiper-section {
   width: 100%;
 }
@@ -470,6 +469,32 @@
 }
 
 /* 新闻资讯 */
+.news-container{
+  margin-top: 80px;
+}
+.news-container .container-center{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.news-container .news-list {
+  
+}
+.news-container .news-list>.news-panel {
+  float: left;
+  width: calc(33.33% - 10px);
+  margin-right: 15px;
+}
+.news-container .news-list>.news-panel:nth-child(n+3){
+  margin-right: 0;
+}
+.news-container .news-list>.news-panel>.news-img{
+  
+}
+
 
 
 
