@@ -1,24 +1,10 @@
 @charset "UTF-8";
-/* @media，设置媒体查询，设置一些样式仅在某些条件下生效 */
-/* 媒体查询是响应式页面的基础  */
-/* @media (max-width:1920px) {
-  body{
-    color: red;
-  }
-}
-
-@media(max-width:1400px) {
-  body{
-    color: yellow;
-  }
-} */
 /** 浏览器兼容性修复 */
 html {
-  line-height: 1.15; /* 1 */
+  line-height: 1; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 body {
-  font-size: 14px;
   font-family: "Microsoft YaHei", 微x8F6F正黑体, 华文黑体, STHeiti, 思源黑体, "Noto Sans CJK SC", 方正黑体, 宋体, SimSun, regular, 微软雅黑, 黑体, 宋体, "Hiragino Sans GB", tahoma, helvetica, arial;
 }
 a {
@@ -210,28 +196,25 @@ textarea {
 }
 
 /** 页面公共样式  */
-.header {
-  height: 100px;
+.top-header {
+  height: 80px;
 }
-.header .h-center {
+.top-header .h-center {
   position: relative;
-  width: 80%;
+  height: inherit;
   margin: 0 auto;
 }
-.header .h-center .h-logo {
+.top-header .h-center .h-logo {
   display: inline-block;
-  width: 250px;
-  height: 100px;
-}
-.header .h-center .h-logo>.logo {
-  position: relative;
-  top: 50%;
-  width: 100%;
+  width: 214px;
   height: 70px;
-  margin-top: -35px;
-  margin-left: -10px;
+  margin: 5px 0 0 -10px;
 }
-.header .h-center .h-nav {
+.top-header .h-center .h-logo>.logo {
+  width: 214px;
+  height: 70px;
+}
+.top-header .h-center .h-nav {
   position: absolute;
   top: 50%;
   right: 0;
@@ -263,17 +246,12 @@ textarea {
 }
 
 
-
-
-
-
-
 .nav-panel {
   height: 220px;
 }
 .nav-panel>.nav-center {
   position: relative;
-  width: 80%;
+  width: 1200px;
   height: 100%;
   margin: 0 auto;
   padding-left: 15px;
@@ -351,9 +329,26 @@ textarea {
   background: url("/images/dataCodeNav.jpg") no-repeat center;
 }
 
-
-.condition{
+.container{
+  margin: 0 auto;
 }
+.container .container-header{
+}
+.container .container-header>h4{
+  float: left;
+  color: #015db2;
+}
+.container .container-header>.sub-title{
+  margin-left: 7px;
+  font-family: Helvetica;
+  color: #666;
+}
+
+
+
+
+
+
 .condition .c-row {
   margin-bottom: 30px;
 }
@@ -388,8 +383,7 @@ textarea {
   color: #fff;
   font-size: 14px;
 }
-.footer>.f-center {
-  width: 70%;
+.footer>.container {
   height: 100%;
   margin: 0 auto;
   padding-top: 30px;
@@ -397,7 +391,7 @@ textarea {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.footer>.f-center .f-info {
+.footer>.container .f-info {
   position: relative;
   height: 100px;
 }
@@ -427,17 +421,63 @@ textarea {
 .f-info .addr>p:last-child {
   margin-bottom: 0;
 }
-.footer>.f-center .copyright {
+.footer>.container .copyright {
   height: 70px;
   border-top: 1px solid rgba(255,255,255,0.4);
   text-align: center;
 }
-.footer>.f-center .copyright>p {
+.footer>.container .copyright>p {
   margin: 0;
   line-height: 70px;
 }
 
+@media screen and (min-width:1500px) {
+  body{
+    font-size: 16px;
+  }
+  .container {
+    width: 1600px;
+  }
+  .container.top-margin{
+    margin-top: 80px;
+  }
+  .container .container-header{
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+  
+}
+@media screen and (min-width:1500px) and (max-width:2000px) {
+  body{
+    font-size: 16px;
+  }
+  .container {
+    width: 1400px;
+  }
+  .container.top-margin{
+    margin-top: 60px;
+  }
+  .container .container-header{
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+}
 
+@media screen and (min-width:1200px) and (max-width:1500px) {
+  body{
+    font-size: 14px;
+  }
+  .container {
+    width: 1000px;
+  }
+  .container.top-margin{
+    margin-top: 50px;
+  }
+  .container .container-header{
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+}
 
 
 
