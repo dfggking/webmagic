@@ -31,6 +31,34 @@
 .thesis-container .thesis-list>ul>li>.oper>a{
   color: #015db2;
 }
+.thesis-container .condition{
+  padding-top: 20px;
+}
+.thesis-container .condition .c-row {
+  margin-bottom: 30px;
+}
+.thesis-container .condition .c-row:last-child {
+  margin-bottom: 0;
+}
+.thesis-container .condition .c-row>.name{
+  float: left;
+}
+.thesis-container .condition .c-row>ul {
+  margin: 0 0 0 50px;
+  padding: 0;
+  list-style: none;
+}
+.thesis-container .condition .c-row>ul>li{
+  float: left;
+  padding-left: 34px;
+  padding-bottom: 10px;
+  color: #222;
+  cursor: pointer;
+}
+.thesis-container .condition .c-row>ul>li.active,
+.thesis-container .condition .c-row>ul>li:hover {
+  color: #015db2;
+}
 
 @media screen and (min-width:2560px) {
 
