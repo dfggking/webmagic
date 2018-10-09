@@ -3,13 +3,10 @@
 <html>
 <head>
   <%@include file="../common/head.jsp"%>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.0/css/swiper.min.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.0/js/swiper.min.js"></script>
-  <link href="/css/style.css" rel="stylesheet">
 </head>
 <body>
 <jsp:include page="../common/header.jsp" />
-<div class="nav-panel nav-admission">
+<div class="nav-panel nav-dataCode">
   <div class="nav-center">
     <div class="nav-title clearfix"><span class="label">一一</span><span>数据与代码</span></div>
     <h2 class="nav-h2">Data And Code</h2>

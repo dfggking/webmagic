@@ -1,0 +1,444 @@
+@charset "UTF-8";
+/* @media，设置媒体查询，设置一些样式仅在某些条件下生效 */
+/* 媒体查询是响应式页面的基础  */
+/* @media (max-width:1920px) {
+  body{
+    color: red;
+  }
+}
+
+@media(max-width:1400px) {
+  body{
+    color: yellow;
+  }
+} */
+/** 浏览器兼容性修复 */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+body {
+  font-size: 14px;
+  font-family: "Microsoft YaHei", 微x8F6F正黑体, 华文黑体, STHeiti, 思源黑体, "Noto Sans CJK SC", 方正黑体, 宋体, SimSun, regular, 微软雅黑, 黑体, 宋体, "Hiragino Sans GB", tahoma, helvetica, arial;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;/** Remove the gray background on active links in IE 10. */
+  cursor: pointer;
+}
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+/** 自增样式 */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clearfix:after{
+  content:"\0020";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden
+  
+}
+
+/** 页面公共样式  */
+.header {
+  height: 100px;
+}
+.header .h-center {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+.header .h-center .h-logo {
+  display: inline-block;
+  width: 250px;
+  height: 100px;
+}
+.header .h-center .h-logo>.logo {
+  position: relative;
+  top: 50%;
+  width: 100%;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -10px;
+}
+.header .h-center .h-nav {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -10px;
+  z-index: 0;
+}
+.h-nav {
+  display: inline-block;
+}
+.h-nav ul {
+  display: inline-block;
+  list-style: none;
+}
+.h-nav ul>li {
+  float: left;
+  margin-right: 14px;
+  line-height: 20px;
+}
+.h-nav ul>li:last-child {
+  margin-right: 0;
+}
+.h-nav ul>li>a {
+  color: #222;
+
+}
+.h-nav ul>li>a:hover,
+.h-nav ul>li.active>a {
+  color: #015db2;
+}
+
+
+
+
+
+
+
+.nav-panel {
+  height: 220px;
+}
+.nav-panel>.nav-center {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  color: #fff;
+}
+.nav-panel>.nav-center .nav-title {
+  padding-top: 50px;
+  font-size: 20px;
+}
+.nav-panel>.nav-center .nav-title>span{
+  float: left;
+  line-height: 40px;
+}
+.nav-panel>.nav-center .nav-title .label {
+  margin-right: 3px;
+  font-size: 30px;
+  font-weight: 100;
+}
+.nav-panel>.nav-center .nav-h2 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 32px;
+}
+.nav-panel>.nav-center .nav-span {
+  position: absolute;
+  bottom: 20px;
+}
+.nav-panel>.nav-center .nav-span>a {
+  float: left;
+  margin-right: 5px;
+  font-size: 14px;
+  color: #eee;
+}
+.nav-panel>.nav-center .nav-span>a.dot {
+  margin-top: -1.5px;
+}
+.nav-panel.nav-teamMember {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("/images/teamMemberNav.jpg") no-repeat center;
+}
+.nav-panel.nav-courseTeaching {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("/images/courseTeachingNav.jpg") no-repeat center;
+}
+.nav-panel.nav-researchDirection {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("/images/researchDirectionNav.jpg") no-repeat center;
+}
+.nav-panel.nav-thesis {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("/images/thesisNav.jpg") no-repeat center;
+}
+.nav-panel.nav-project {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("/images/projectNav.jpg") no-repeat center;
+}
+.nav-panel.nav-news {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("/images/newsNav.jpg") no-repeat center;
+}
+.nav-panel.nav-admission{
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("/images/admissionNav.jpg") no-repeat center;
+}
+.nav-panel.nav-dataCode{
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: url("/images/dataCodeNav.jpg") no-repeat center;
+}
+
+
+.condition{
+}
+.condition .c-row {
+  margin-bottom: 30px;
+}
+.condition .c-row:last-child {
+  margin-bottom: 0;
+}
+.condition .c-row>.name{
+  float: left;
+}
+.condition .c-row>ul {
+  margin: 0 0 0 50px;
+  padding: 0;
+  list-style: none;
+}
+.condition .c-row>ul>li{
+  float: left;
+  padding-left: 34px;
+  padding-bottom: 10px;
+  color: #222;
+  cursor: pointer;
+}
+.condition .c-row>ul>li.active,
+.condition .c-row>ul>li:hover {
+  color: #015db2;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  margin-top: 80px;
+  background: url("/images/footer-bg.jpg") center;
+  color: #fff;
+  font-size: 14px;
+}
+.footer>.f-center {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.footer>.f-center .f-info {
+  position: relative;
+  height: 100px;
+}
+.f-info .f-logo {
+  position: relative;
+  top: 50%;
+  margin-top: -35px;
+  float: left;
+  width: 250px;
+  height: 70px;
+}
+.f-info .f-logo>img {
+  width: 100%;
+  height: 100%;
+}
+.f-info .addr {
+  position: relative;
+  top: 50%;
+  margin: -35px 2px 0 0;
+  padding: 14px 0;
+  float: right;
+}
+.f-info .addr>p {
+  margin: 5px 0;
+  text-align: right;
+}
+.f-info .addr>p:last-child {
+  margin-bottom: 0;
+}
+.footer>.f-center .copyright {
+  height: 70px;
+  border-top: 1px solid rgba(255,255,255,0.4);
+  text-align: center;
+}
+.footer>.f-center .copyright>p {
+  margin: 0;
+  line-height: 70px;
+}
+
+
+
+
+
+

@@ -3,9 +3,6 @@
 <html>
 <head>
   <%@include file="../common/head.jsp"%>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.0/css/swiper.min.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.0/js/swiper.min.js"></script>
-  <link href="/css/style.css" rel="stylesheet">
 </head>
 <body>
 <jsp:include page="../common/header.jsp" />
@@ -188,62 +185,65 @@
     <span>合作企业</span>
     <span>Cooperative Enterprise</span>
   </header>
-  <table class="enterprise">
-    <tbody>
-      <tr>
-        <td>
-          <img src="/images/enterprise/1.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/2.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/3.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/4.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/5.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/6.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/7.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/8.png">
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <img src="/images/enterprise/1.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/2.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/3.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/4.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/5.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/6.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/7.png">
-        </td>
-        <td>
-          <img src="/images/enterprise/8.png">
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  <div style="display: inline-block;">
+    <table class="enterprise">
+      <tbody>
+        <tr>
+          <td>
+            <img src="/images/enterprise/1.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/2.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/3.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/4.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/5.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/6.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/7.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/8.png">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="/images/enterprise/1.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/2.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/3.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/4.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/5.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/6.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/7.png">
+          </td>
+          <td>
+            <img src="/images/enterprise/8.png">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
 </div>
 <jsp:include page="../common/footer.jsp" />
 <script>

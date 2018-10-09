@@ -30,7 +30,7 @@
 }
 .main-wrap>.m-center>main>header {
   margin-bottom: 30px;
-  font-size: 2.2rem;
+  font-size: 22px;
 }
 .main-wrap main>header>h4 {
   float: left;
@@ -47,16 +47,16 @@
 }
 .main-wrap main>.main-content .c-img {
   float: left;
-  width: 30vw;
-  height: auto;
+  width: 320px;
+  height: 220px;
 }
 .main-wrap main>.main-content .c-img>img{
   width: 100%;
   height: 100%;
 }
 .main-wrap main>.main-content aside {
-  margin-left: 32.5vw;
-  font-size: 1.3vw;
+  margin-left: 350px;
+  font-size: 14px;
 }
 .introduction>.main-content aside>p {
   line-height: 1.5;
@@ -68,7 +68,6 @@
 }
 .main-wrap main>.main-content aside>ul{
   margin: 5px 0;
-  padding-left: 20px;
 }
 .main-wrap main>.main-content aside>ul>li {
   line-height: 1.5;
@@ -127,7 +126,7 @@
   margin-right: 10px;
   padding: 1px 3px;
   color: #fff;
-  font-size: 14px;font-size:1.4rem;
+  font-size: 14px;
 }
 .label.color1 {
   background: #015db2;
@@ -139,7 +138,7 @@
 .information .more {
   float: right;
   padding: 5px 0;
-  font-size: 14px;font-size:1.4rem;
+  font-size: 14px;
   color: #222;
 }
 .information .more:after {
@@ -239,7 +238,7 @@
   border-bottom: 1px dashed rgba(0,0,0,0.3);
   line-height: 1.2;
   color: #015db2;
-  font-size: 16px;font-size:1.6rem;
+  font-size: 16px;
 }
 .course-panel>.panel-body {
   padding-top: 20px;
@@ -248,7 +247,7 @@
   margin: 0;
   line-height: 1.5;
   color: #444;
-  font-size: 14px;font-size:1.4rem;
+  font-size: 14px;
 }
 
 /* 研究方向 */
@@ -262,7 +261,7 @@
 }
 .research-container .introduction>p {
   color: #222222;
-  font-size: 16px;font-size:1.6rem;
+  font-size: 16px;
   line-height: 1.5;
 }
 .research-panel {
@@ -274,7 +273,7 @@
   border-bottom: 1px dashed rgba(0,0,0,0.3);
   line-height: 1.2;
   color: #015db2;
-  font-size: 16px;font-size:1.6rem;
+  font-size: 16px;
 }
 .research-panel>.panel-body {
   padding-top: 20px;
@@ -283,7 +282,7 @@
   margin: 0;
   line-height: 1.5;
   color: #444;
-  font-size: 14px;font-size:1.4rem;
+  font-size: 14px;
 }
 .research-panel>.panel-footer {
   padding-top: 14px;
@@ -292,7 +291,7 @@
   text-align: right;
 }
 .research-panel>.panel-footer>.more>a {
-  font-size: 14px;font-size:1.4rem;
+  font-size: 14px;
   color: #015db2;
 }
 .research-panel>.panel-footer>.more>a:after{
@@ -352,9 +351,8 @@
   border-bottom: 1px dotted rgba(0,0,0,0.3);
 }
 .thesis-container .thesis-list>ul>li{
-  float: left;
   padding-bottom: 30px;
-  font-size: 16px;font-size:1.6rem;
+  font-size: 16px;
   color: #222;
   line-height: 1.5;
 }
@@ -406,17 +404,17 @@
 .level-module .project-list>.project-panel>.p-title {
   margin-bottom: 16px;
   color: #222222;
-  font-size: 16px;font-size:1.6rem;
+  font-size: 16px;
 }
 .level-module .project-list>.project-panel>p.intro {
   margin-bottom: 12px;
-  font-size: 14px;font-size:1.4rem;
+  font-size: 14px;
   color: #666;
 }
 
 .level-module .project-list>.project-panel>.time{
   color: #666;
-  font-size: 14px;font-size:1.4rem;
+  font-size: 14px;
 }
 .co-enterprise {
   width: 80%;
@@ -491,7 +489,7 @@
   border-bottom: 1px solid #ddd;
   line-height: 24px;
   font-size: 16px;
-  font-size: 1.6rem;
+  
   font-weight: normal;
   color: #222;
 }
@@ -507,7 +505,7 @@
   justify-content: flex-start;
   align-items: center;
   font-size: 14px;
-  font-size: 1.4rem;
+  
   color: #666;
 }
 .news-container .news-list>.news-panel .time>.icon {
@@ -521,7 +519,7 @@
 .news-container .news-list>.news-panel .news-label {
   color: #fff;
   font-size: 14px;
-  font-size: 1.4rem;
+  
   padding: 1px 5px;
 }
 .news-label.type1 {
@@ -544,7 +542,7 @@
   line-height: 1.5;
   color: #333;
   font-size: 16px;
-  font-size: 1.6rem;
+  
 }
 .introduction{
   margin-bottom: 50px;
@@ -562,7 +560,6 @@
   font-weight: normal;
   color: #015db2;
   font-size: 24px;
-  font-size: 2.4rem;
 }
 .admission-info{
 }
@@ -574,7 +571,6 @@
   border-bottom: 1px solid #ddd;
   font-weight: normal;
   font-size: 18px;
-  font-size: 1.8rem;
   color: #015db2;
 }
 .admission-info>.info-panel ul{
@@ -588,7 +584,7 @@
 .admission-info>.info-panel>.panel-body {
   padding: 18px 0;
   font-size: 16px;
-  font-size: 1.6rem;
+  
   line-height: 1.5;
   color: #444;
 }
@@ -603,7 +599,6 @@
   border-bottom: 1px solid #ddd;
   font-weight: normal;
   font-size: 18px;
-  font-size: 1.8rem;
   color: #015db2;
 }
 .appendix>.info-panel ul{
@@ -617,7 +612,7 @@
 .appendix>.info-panel>.panel-body {
   padding: 18px 0;
   font-size: 16px;
-  font-size: 1.6rem;
+  
   line-height: 1.5;
   color: #444;
 }
@@ -635,7 +630,7 @@
   line-height: 1.5;
   color: #333;
   font-size: 16px;
-  font-size: 1.6rem;
+  
 }
 
 .datacode-container .datacode-list {
@@ -664,7 +659,6 @@
 .datacode-container .datacode-list>ul>li .count {
   margin-right: 5px;
   font-size: 12px;
-  font-size: 1.2rem;
   color: #999;
 }
 .datacode-container .datacode-list>ul>li .download {
@@ -672,7 +666,7 @@
   background: #265BAC;
   color: #fff;
   font-size: 14px;
-  font-size: 1.4rem;
+  
   cursor: pointer;
 }
 .datacode-container .datacode-info {
@@ -680,7 +674,6 @@
 }
 .datacode-container .datacode-info>header {
   font-size: 20px;
-  font-size: 2rem;
   color: #015db2;
   padding-bottom: 16px;
   border-bottom: 1px solid #ddd;

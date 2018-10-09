@@ -3,9 +3,6 @@
 <html>
   <head>
     <%@include file="../common/head.jsp"%>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.0/css/swiper.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.0/js/swiper.min.js"></script>
-    <link href="/css/style.css" rel="stylesheet">
   </head>
   <body>
     <jsp:include page="../common/header.jsp" />
