@@ -3,9 +3,29 @@
 <html>
   <head>
     <%@include file="../../common/head.jsp"%>
+    <link rel="stylesheet" href="/css/teamMember/style.css" >
   </head>
   <body>
-    <jsp:include page="../../common/header.jsp" />
+    <header class="top-header">
+      <div class="h-center container">
+        <div class="h-logo">
+          <img class="logo" src="/images/logo.png">
+        </div>
+        <div class="h-nav">
+          <ul id="J_header_nav" class="clearfix">
+            <li><a href="/index">网站首页</a></li>
+            <li class="active"><a href="/team/member/list">团队成员</a></li>
+            <li><a href="/research/direction">研究方向</a></li>
+            <li><a href="/thesis/index">论文著作</a></li>
+            <li><a href="/project/info">科研项目</a></li>
+            <li><a href="/news/info">新闻资讯</a></li>
+            <li><a href="/course/teaching">课程教学</a></li>
+            <li><a href="/dataCode/info">数据与代码</a></li>
+            <li><a href="/admission/info">招生信息</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <div class="nav-panel nav-teamMember">
       <div class="nav-center">
         <div class="nav-title clearfix"><span class="label">一一</span><span>团队成员</span></div>
@@ -17,135 +37,141 @@
         </span>
       </div>
     </div>
-    <div class="member-container">
-      <div class="panel-center clearfix">
-        <div class="member-panel">
-          <div class="avatar">
-            <img src="/images/avatar.png">
-          </div>
-          <div class="member-info">
-            <div class="name">李明亮</div>
-            <div class="research-area">
-              <span>高效组合优化与图论算法</span>
-              <span>云计算系统结构与性能分析</span>
-            </div>
-            <div class="academy">北京交通大学</div>
-          </div>
+    <div class="container member-container top-margin">
+      <div class="member-panel">
+        <div class="avatar">
+          <img src="/images/avatar.png">
         </div>
-        <div class="member-panel">
-          <div class="avatar">
-            <img src="/images/avatar.png">
+        <div class="member-info">
+          <div class="name">李明亮</div>
+          <div class="research-area">
+            <span>高效组合优化与图论算法</span>
+            <span>云计算系统结构与性能分析</span>
           </div>
-          <div class="member-info">
-            <div class="name">李明亮</div>
-            <div class="research-area">
-              <span>高效组合优化与图论算法</span>
-              <span>云计算系统结构与性能分析</span>
-            </div>
-            <div class="academy">北京交通大学</div>
-          </div>
+          <div class="academy">北京交通大学</div>
         </div>
-        <div class="member-panel">
-          <div class="avatar">
-            <img src="/images/avatar.png">
-          </div>
-          <div class="member-info">
-            <div class="name">李明亮</div>
-            <div class="research-area">
-              <span>高效组合优化与图论算法</span>
-              <span>云计算系统结构与性能分析</span>
-            </div>
-            <div class="academy">北京交通大学</div>
-          </div>
+      </div>
+      <div class="member-panel">
+        <div class="avatar">
+          <img src="/images/avatar.png">
         </div>
-        <div class="member-panel">
-          <div class="avatar">
-            <img src="/images/avatar.png">
+        <div class="member-info">
+          <div class="name">李明亮</div>
+          <div class="research-area">
+            <span>高效组合优化与图论算法</span>
+            <span>云计算系统结构与性能分析</span>
           </div>
-          <div class="member-info">
-            <div class="name">李明亮</div>
-            <div class="research-area">
-              <span>高效组合优化与图论算法</span>
-              <span>云计算系统结构与性能分析</span>
-            </div>
-            <div class="academy">北京交通大学</div>
-          </div>
+          <div class="academy">北京交通大学</div>
         </div>
-        <div class="member-panel">
-          <div class="avatar">
-            <img src="/images/avatar.png">
-          </div>
-          <div class="member-info">
-            <div class="name">李明亮</div>
-            <div class="research-area">
-              <span>高效组合优化与图论算法</span>
-              <span>云计算系统结构与性能分析</span>
-            </div>
-            <div class="academy">北京交通大学</div>
-          </div>
+      </div>
+      <div class="member-panel">
+        <div class="avatar">
+          <img src="/images/avatar.png">
         </div>
-
-        <div class="member-panel">
-          <div class="avatar">
-            <img src="/images/avatar.png">
+        <div class="member-info">
+          <div class="name">李明亮</div>
+          <div class="research-area">
+            <span>高效组合优化与图论算法</span>
+            <span>云计算系统结构与性能分析</span>
           </div>
-          <div class="member-info">
-            <div class="name">李明亮</div>
-            <div class="research-area">
-              <span>高效组合优化与图论算法</span>
-              <span>云计算系统结构与性能分析</span>
-            </div>
-            <div class="academy">北京交通大学</div>
-          </div>
+          <div class="academy">北京交通大学</div>
         </div>
-        <div class="member-panel">
-          <div class="avatar">
-            <img src="/images/avatar.png">
-          </div>
-          <div class="member-info">
-            <div class="name">李明亮</div>
-            <div class="research-area">
-              <span>高效组合优化与图论算法</span>
-              <span>云计算系统结构与性能分析</span>
-            </div>
-            <div class="academy">北京交通大学</div>
-          </div>
+      </div>
+      <div class="member-panel">
+        <div class="avatar">
+          <img src="/images/avatar.png">
         </div>
-        <div class="member-panel">
-          <div class="avatar">
-            <img src="/images/avatar.png">
+        <div class="member-info">
+          <div class="name">李明亮</div>
+          <div class="research-area">
+            <span>高效组合优化与图论算法</span>
+            <span>云计算系统结构与性能分析</span>
           </div>
-          <div class="member-info">
-            <div class="name">李明亮</div>
-            <div class="research-area">
-              <span>高效组合优化与图论算法</span>
-              <span>云计算系统结构与性能分析</span>
-            </div>
-            <div class="academy">北京交通大学</div>
-          </div>
+          <div class="academy">北京交通大学</div>
         </div>
-
+      </div>
+      <div class="member-panel">
+        <div class="avatar">
+          <img src="/images/avatar.png">
+        </div>
+        <div class="member-info">
+          <div class="name">李明亮</div>
+          <div class="research-area">
+            <span>高效组合优化与图论算法</span>
+            <span>云计算系统结构与性能分析</span>
+          </div>
+          <div class="academy">北京交通大学</div>
+        </div>
+      </div>
+      <div class="member-panel">
+        <div class="avatar">
+          <img src="/images/avatar.png">
+        </div>
+        <div class="member-info">
+          <div class="name">李明亮</div>
+          <div class="research-area">
+            <span>高效组合优化与图论算法</span>
+            <span>云计算系统结构与性能分析</span>
+          </div>
+          <div class="academy">北京交通大学</div>
+        </div>
+      </div>
+      <div class="member-panel">
+        <div class="avatar">
+          <img src="/images/avatar.png">
+        </div>
+        <div class="member-info">
+          <div class="name">李明亮</div>
+          <div class="research-area">
+            <span>高效组合优化与图论算法</span>
+            <span>云计算系统结构与性能分析</span>
+          </div>
+          <div class="academy">北京交通大学</div>
+        </div>
+      </div>
+      <div class="member-panel">
+        <div class="avatar">
+          <img src="/images/avatar.png">
+        </div>
+        <div class="member-info">
+          <div class="name">李明亮</div>
+          <div class="research-area">
+            <span>高效组合优化与图论算法</span>
+            <span>云计算系统结构与性能分析</span>
+          </div>
+          <div class="academy">北京交通大学</div>
+        </div>
+      </div>
+      <div class="member-panel">
+        <div class="avatar">
+          <img src="/images/avatar.png">
+        </div>
+        <div class="member-info">
+          <div class="name">李明亮</div>
+          <div class="research-area">
+            <span>高效组合优化与图论算法</span>
+            <span>云计算系统结构与性能分析</span>
+          </div>
+          <div class="academy">北京交通大学</div>
+        </div>
+      </div>
+      <div class="member-panel">
+        <div class="avatar">
+          <img src="/images/avatar.png">
+        </div>
+        <div class="member-info">
+          <div class="name">李明亮</div>
+          <div class="research-area">
+            <span>高效组合优化与图论算法</span>
+            <span>云计算系统结构与性能分析</span>
+          </div>
+          <div class="academy">北京交通大学</div>
+        </div>
       </div>
     </div>
     <jsp:include page="../../common/footer.jsp" />
     <script>
       $(function(){
-        var iSwiper = new Swiper('#J_index_swiper', {
-          autoplay: true,//可选选项，自动滑动
-          pagination: {
-              el: '#J_index_swiper .swiper-pagination',
-          },
-          loop: true
-        });
-
-        var infoSwiper = new Swiper('#J_info_swiper', {
-            loop: true,
-            navigation: {
-              nextEl: '#J_info_swiper .swiper-button-next',
-              prevEl: '#J_info_swiper .swiper-button-prev',
-            },
-            simulateTouch: false
-        });
 
         $('img').on('mousedown',function (e) {
             e.preventDefault();

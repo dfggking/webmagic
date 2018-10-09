@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* 团队成员 */
+.member-container .member-panel {
+  display: inline-block;
+  width: 30.3%;
+  margin: 0 4.2% 70px 0;
+  padding-bottom: 26px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eaeaea;
+}
+.member-container .member-panel:nth-child(3n + 3){
+  margin-right: 0;
+}
+.member-container .member-panel .avatar {
+  float: left;
+  width: 130px;
+  height: 130px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.member-panel .avatar>img {
+  width: 100%;
+  height: 100%;
+}
+.member-container .member-panel .member-info {
+  margin-left: 130px;
+  padding-left: 28px;
+}
+.member-panel .member-info>.name {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #015db2;
+}
+.member-panel .member-info>.research-area{
+  color: #222;
+}
+.member-panel .member-info>.research-area>span{
+  display: block;
+  margin-bottom: 10px;
+}
+.member-panel .member-info>.research-area>span:last-child{
+  margin-bottom: 0;
+}
+.member-panel .member-info>.academy {
+  margin-top: 20px;
+  color: #222;
+}
+.footer{
+  margin-top: 0;
+}
+
+@media screen and (min-width:2560px) {
+
+}
+@media screen and (min-width:1920px) and (max-width:2560px) {
+
+}
+@media screen and (min-width:1500px) and (max-width:1920px) {
+
+}
+@media screen and (max-width:1500px) {
+
+}

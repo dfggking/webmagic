@@ -7,7 +7,6 @@
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" href="/css/common2.css" />
-<link rel="stylesheet" href="/css/style2.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
 <!--[if lt IE 9]>

@@ -3,22 +3,41 @@
 <html>
 <head>
   <%@include file="../common/head.jsp"%>
+  <link href="/css/project/style.css" rel="stylesheet">
 </head>
 <body>
-<jsp:include page="../common/header.jsp" />
-<div class="nav-panel nav-project">
-  <div class="nav-center">
-    <div class="nav-title clearfix"><span class="label">一一</span><span>科研项目</span></div>
-    <h2 class="nav-h2">Research Project</h2>
-    <span class="nav-span">
-      <a href="">网站首页</a>
-      <a class="dot"> > </a>
-      <a href="">科研项目</a>
-    </span>
+  <header class="top-header">
+    <div class="h-center container">
+      <div class="h-logo">
+        <img class="logo" src="/images/logo.png">
+      </div>
+      <div class="h-nav">
+        <ul id="J_header_nav" class="clearfix">
+          <li><a href="/index">网站首页</a></li>
+          <li><a href="/team/member/list">团队成员</a></li>
+          <li><a href="/research/direction">研究方向</a></li>
+          <li><a href="/thesis/index">论文著作</a></li>
+          <li class="active"><a href="/project/info">科研项目</a></li>
+          <li><a href="/news/info">新闻资讯</a></li>
+          <li><a href="/course/teaching">课程教学</a></li>
+          <li><a href="/dataCode/info">数据与代码</a></li>
+          <li><a href="/admission/info">招生信息</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="nav-panel nav-project">
+    <div class="nav-center">
+      <div class="nav-title clearfix"><span class="label">一一</span><span>科研项目</span></div>
+      <h2 class="nav-h2">Research Project</h2>
+      <span class="nav-span">
+        <a href="">网站首页</a>
+        <a class="dot"> > </a>
+        <a href="">科研项目</a>
+      </span>
+    </div>
   </div>
-</div>
-<div class="project-container">
-  <div class="container-center">
+  <div class="container project-container top-margin">
     <div class="level-module">
       <header>省级</header>
       <div class="project-list clearfix">
@@ -179,15 +198,14 @@
       </div>
     </div>
   </div>
-</div>
-<div class="co-enterprise">
-  <header>
-    <span>合作企业</span>
-    <span>Cooperative Enterprise</span>
-  </header>
-  <div style="display: inline-block;">
-    <table class="enterprise">
-      <tbody>
+  <div class="co-enterprise">
+    <header>
+      <span>合作企业</span>
+      <span>Cooperative Enterprise</span>
+    </header>
+    <div style="display: inline-block;">
+      <table class="enterprise">
+        <tbody>
         <tr>
           <td>
             <img src="/images/enterprise/1.png">
@@ -240,35 +258,18 @@
             <img src="/images/enterprise/8.png">
           </td>
         </tr>
-      </tbody>
-    </table>
+        </tbody>
+      </table>
+    </div>
   </div>
-  
-</div>
-<jsp:include page="../common/footer.jsp" />
-<script>
+  <jsp:include page="../common/footer.jsp" />
+  <script>
     $(function(){
-        var iSwiper = new Swiper('#J_index_swiper', {
-            autoplay: true,//可选选项，自动滑动
-            pagination: {
-                el: '#J_index_swiper .swiper-pagination',
-            },
-            loop: true
-        });
-
-        var infoSwiper = new Swiper('#J_info_swiper', {
-            loop: true,
-            navigation: {
-                nextEl: '#J_info_swiper .swiper-button-next',
-                prevEl: '#J_info_swiper .swiper-button-prev',
-            },
-            simulateTouch: false
-        });
 
         $('img').on('mousedown',function (e) {
             e.preventDefault();
         });
     });
-</script>
+  </script>
 </body>
 </html>

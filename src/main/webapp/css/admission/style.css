@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* 招生信息 */
+.admission-container{
+  margin-top: 80px;
+}
+.admission-container>.container-center {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.admission-container .introduction>.content {
+  line-height: 1.5;
+  color: #333;
+  font-size: 16px;
+
+}
+.introduction{
+  margin-bottom: 50px;
+}
+.introduction>.content>ul {
+  padding-left: 20px;
+  margin-top: 28px;
+}
+.introduction>.content>ul>li{
+  padding-bottom: 10px;
+}
+.introduction>h4 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #015db2;
+  font-size: 24px;
+}
+.admission-info{
+}
+.admission-info>.info-panel {
+  margin-bottom: 20px;
+}
+.admission-info>.info-panel>h3 {
+  padding-bottom: 14px;
+  border-bottom: 1px solid #ddd;
+  font-weight: normal;
+  font-size: 18px;
+  color: #015db2;
+}
+.admission-info>.info-panel ul{
+  padding-left: 30px;
+  margin-top: 28px;
+  list-style: decimal;
+}
+.admission-info>.info-panel ul>li{
+  padding-bottom: 10px;
+}
+.admission-info>.info-panel>.panel-body {
+  padding: 18px 0;
+  font-size: 16px;
+
+  line-height: 1.5;
+  color: #444;
+}
+
+.appendix{
+}
+.appendix>.info-panel {
+  margin-bottom: 20px;
+}
+.appendix>.info-panel:last-child{
+  margin-bottom: 0;
+}
+.appendix>.info-panel>h3 {
+  padding-bottom: 14px;
+  border-bottom: 1px solid #ddd;
+  font-weight: normal;
+  font-size: 18px;
+  color: #015db2;
+}
+.appendix>.info-panel ul{
+  padding-left: 30px;
+  margin-top: 28px;
+  list-style: decimal;
+}
+.appendix>.info-panel ul>li{
+  padding-bottom: 10px;
+}
+.appendix>.info-panel>.panel-body {
+  padding: 18px 0;
+  font-size: 16px;
+
+  line-height: 1.5;
+  color: #444;
+}

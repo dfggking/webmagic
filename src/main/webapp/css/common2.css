@@ -187,7 +187,7 @@ textarea {
   box-sizing: border-box;
 }
 .clearfix:after{
-  content:"\0020";
+  content:".";
   display:block;
   height:0;
   clear:both;
@@ -230,7 +230,7 @@ textarea {
 }
 .h-nav ul>li {
   float: left;
-  margin-right: 14px;
+  margin-right: 20px;
   line-height: 20px;
 }
 .h-nav ul>li:last-child {
@@ -349,31 +349,6 @@ textarea {
 
 
 
-.condition .c-row {
-  margin-bottom: 30px;
-}
-.condition .c-row:last-child {
-  margin-bottom: 0;
-}
-.condition .c-row>.name{
-  float: left;
-}
-.condition .c-row>ul {
-  margin: 0 0 0 50px;
-  padding: 0;
-  list-style: none;
-}
-.condition .c-row>ul>li{
-  float: left;
-  padding-left: 34px;
-  padding-bottom: 10px;
-  color: #222;
-  cursor: pointer;
-}
-.condition .c-row>ul>li.active,
-.condition .c-row>ul>li:hover {
-  color: #015db2;
-}
 
 .footer {
   width: 100%;
@@ -431,7 +406,7 @@ textarea {
   line-height: 70px;
 }
 
-@media screen and (min-width:1500px) {
+@media screen and (min-width:2560px) {
   body{
     font-size: 16px;
   }
@@ -447,7 +422,7 @@ textarea {
   }
   
 }
-@media screen and (min-width:1500px) and (max-width:2000px) {
+@media screen and (min-width:1920px) and (max-width:2560px) {
   body{
     font-size: 16px;
   }
@@ -463,7 +438,23 @@ textarea {
   }
 }
 
-@media screen and (min-width:1200px) and (max-width:1500px) {
+@media screen and (min-width:1500px) and (max-width:1920px) {
+  body{
+    font-size: 16px;
+  }
+  .container {
+    width: 1200px;
+  }
+  .container.top-margin{
+    margin-top: 50px;
+  }
+  .container .container-header{
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:1500px) {
   body{
     font-size: 14px;
   }

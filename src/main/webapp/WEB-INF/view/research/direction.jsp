@@ -3,22 +3,41 @@
 <html>
 <head>
   <%@include file="../common/head.jsp"%>
+  <link href="/css/research/style.css" rel="stylesheet">
 </head>
 <body>
-<jsp:include page="../common/header.jsp" />
-<div class="nav-panel nav-teamMember">
-  <div class="nav-center">
-    <div class="nav-title clearfix"><span class="label">一一</span><span>研究方向</span></div>
-    <h2 class="nav-h2">Research Direction</h2>
-    <span class="nav-span">
-          <a href="">网站首页</a>
-          <a class="dot"> > </a>
-          <a href="">研究方向</a>
-        </span>
+  <header class="top-header">
+    <div class="h-center container">
+      <div class="h-logo">
+        <img class="logo" src="/images/logo.png">
+      </div>
+      <div class="h-nav">
+        <ul id="J_header_nav" class="clearfix">
+          <li><a href="/index">网站首页</a></li>
+          <li><a href="/team/member/list">团队成员</a></li>
+          <li class="active"><a href="/research/direction">研究方向</a></li>
+          <li><a href="/thesis/index">论文著作</a></li>
+          <li><a href="/project/info">科研项目</a></li>
+          <li><a href="/news/info">新闻资讯</a></li>
+          <li><a href="/course/teaching">课程教学</a></li>
+          <li><a href="/dataCode/info">数据与代码</a></li>
+          <li><a href="/admission/info">招生信息</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="nav-panel nav-teamMember">
+    <div class="nav-center">
+      <div class="nav-title clearfix"><span class="label">一一</span><span>研究方向</span></div>
+      <h2 class="nav-h2">Research Direction</h2>
+      <span class="nav-span">
+        <a href="">网站首页</a>
+        <a class="dot"> > </a>
+        <a href="">研究方向</a>
+      </span>
+    </div>
   </div>
-</div>
-<div class="research-container">
-  <div class="container-center">
+  <div class="container research-container top-margin">
     <div class="introduction">
       <p>
         <span style="font-size: 20px;margin-right: 5px;">2</span>012年，北京大学软件与微电子学院建院十周年，提出了未来十年“面向产业，培养人才；面向需求，建设学科；面向领域，凝炼方向” 的发展规划。为了更好地培养交叉型人才，促进学科建设，2013年8月学院在已有的12个系和40个专业方向的基础上，成立软件技术与服务工程领域、微纳电子与嵌入式系统领域、金融信息与管理技术领域和新兴交叉领域四个学科组，以领域为核心，形成教学研究团队，全面提高工程硕士培养质量。2016年，学院将学科进一步调整为软件工程与数据技术系、网络软件与系统安全系、集成电路与智能系统系、金融信息与工程管理系、数字艺术与技术传播系五个专业学系。
@@ -95,31 +114,14 @@
       <img src="/images/researchDirectionFooter.jpg">
     </div>
   </div>
-</div>
-<jsp:include page="../common/footer.jsp" />
-<script>
+  <jsp:include page="../common/footer.jsp" />
+  <script>
     $(function(){
-        var iSwiper = new Swiper('#J_index_swiper', {
-            autoplay: true,//可选选项，自动滑动
-            pagination: {
-                el: '#J_index_swiper .swiper-pagination',
-            },
-            loop: true
-        });
-
-        var infoSwiper = new Swiper('#J_info_swiper', {
-            loop: true,
-            navigation: {
-                nextEl: '#J_info_swiper .swiper-button-next',
-                prevEl: '#J_info_swiper .swiper-button-prev',
-            },
-            simulateTouch: false
-        });
 
         $('img').on('mousedown',function (e) {
             e.preventDefault();
         });
     });
-</script>
+  </script>
 </body>
 </html>

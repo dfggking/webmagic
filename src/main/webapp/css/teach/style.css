@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/** 课程教学 */
+.course-container .container-center {
+  width: 80%;
+  margin: 80px auto 0;
+}
+.course-panel {
+  padding: 0 10px;
+  margin-bottom: 50px;
+}
+.course-panel>header {
+  padding-bottom: 14px;
+  border-bottom: 1px dashed rgba(0,0,0,0.3);
+  line-height: 1.2;
+  color: #015db2;
+  font-size: 16px;
+}
+.course-panel>.panel-body {
+  padding-top: 20px;
+}
+.course-panel>.panel-body>p{
+  margin: 0;
+  line-height: 1.5;
+  color: #444;
+  font-size: 14px;
+}
