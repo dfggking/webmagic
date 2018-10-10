@@ -38,30 +38,28 @@
     </div>
   </div>
   <div class="container course-container top-margin">
-    <div class="container-center">
-      <div class="course-panel">
-        <header>课程简介</header>
-        <div class="panel-body">
-          <p>本课程探讨数据仓库与大数据平台的规则、设计、实现和运维全生命周期中前沿工程方法论，通过课堂教学、平台搭建、模型设计与原型案例实现，使研究生掌握数据仓库与大数据平台基础概念，了解OLTP系统数据生成机制，掌握数据集成方法，理解数据仓库与大数据平台的规则、设计、实现和运维全生命周期中前沿工程方法论，通过课堂教学、平台搭建、模型设计与原型案例实现，使研究生掌握数据仓库与大数据平台基础概念，了解OLTP系统数据生成机制，掌握数据集成方法，理解。</p>
-        </div>
+    <div class="course-panel">
+      <header>课程简介</header>
+      <div class="panel-body">
+        <p>本课程探讨数据仓库与大数据平台的规则、设计、实现和运维全生命周期中前沿工程方法论，通过课堂教学、平台搭建、模型设计与原型案例实现，使研究生掌握数据仓库与大数据平台基础概念，了解OLTP系统数据生成机制，掌握数据集成方法，理解数据仓库与大数据平台的规则、设计、实现和运维全生命周期中前沿工程方法论，通过课堂教学、平台搭建、模型设计与原型案例实现，使研究生掌握数据仓库与大数据平台基础概念，了解OLTP系统数据生成机制，掌握数据集成方法，理解。</p>
       </div>
-      <div class="course-panel">
-        <header>考核方式</header>
-        <div class="panel-body">
-          <p>本课程探讨数据仓库与大数据平台的规则、设计、实现和运维全生命周期中前沿工程方法论，通过课堂教学、平台搭建、模型设计与原型案例实现，使研究生掌握数据仓库与大数据平台基础概念，了解OLTP系统数据生成机制，掌握数据集成方法，理解数据仓库与大数据平台的规则掌。</p>
-        </div>
+    </div>
+    <div class="course-panel">
+      <header>考核方式</header>
+      <div class="panel-body">
+        <p>本课程探讨数据仓库与大数据平台的规则、设计、实现和运维全生命周期中前沿工程方法论，通过课堂教学、平台搭建、模型设计与原型案例实现，使研究生掌握数据仓库与大数据平台基础概念，了解OLTP系统数据生成机制，掌握数据集成方法，理解数据仓库与大数据平台的规则掌。</p>
       </div>
-      <div class="course-panel">
-        <header>推荐预修课程</header>
-        <div class="panel-body">
-          <p>数据库系统与原理</p>
-        </div>
+    </div>
+    <div class="course-panel">
+      <header>推荐预修课程</header>
+      <div class="panel-body">
+        <p>数据库系统与原理</p>
       </div>
-      <div class="course-panel">
-        <header>参考资料与书目</header>
-        <div class="panel-body">
-          <p>本课程探讨数据仓库与大数据平台的规则、设计、实现和运维全生命周期中前沿工程方法论，通过课堂教学、平台搭建、模型设计与原型案例实现，使解。</p>
-        </div>
+    </div>
+    <div class="course-panel">
+      <header>参考资料与书目</header>
+      <div class="panel-body">
+        <p>本课程探讨数据仓库与大数据平台的规则、设计、实现和运维全生命周期中前沿工程方法论，通过课堂教学、平台搭建、模型设计与原型案例实现，使解。</p>
       </div>
     </div>
   </div>

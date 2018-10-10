@@ -1,18 +1,6 @@
 @charset "UTF-8";
 /* 论文著作 */
-.thesis-container {
-  margin-top: 80px;
-}
-.thesis-container>.panel-center {
-  width: 80%;
-  margin: 0 auto;
-  padding: 0 10px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
 .thesis-container .thesis-list {
-  margin-top: 60px;
 }
 .thesis-container .thesis-list>ul{
   margin-bottom: 30px;
@@ -20,7 +8,7 @@
   border-bottom: 1px dotted rgba(0,0,0,0.3);
 }
 .thesis-container .thesis-list>ul>li{
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   font-size: 16px;
   color: #222;
   line-height: 1.5;
@@ -51,7 +39,7 @@
 .thesis-container .condition .c-row>ul>li{
   float: left;
   padding-left: 34px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   color: #222;
   cursor: pointer;
 }

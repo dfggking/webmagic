@@ -97,44 +97,60 @@
         <div class="notice">
           <ul class="info-list">
             <li class="active">
-              <span class="label color1">通知公告</span>
-              <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-              <span class="time">2018-10-02</span>
+              <a href="">
+                <span class="label color1">通知公告</span>
+                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
+                <span class="time">2018-10-02</span>
+              </a>
             </li>
             <li>
-              <span class="label color1">通知公告</span>
-              <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-              <span class="time">2018-10-02</span>
+              <a href="">
+                <span class="label color1">通知公告</span>
+                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
+                <span class="time">2018-10-02</span>
+              </a>
             </li>
             <li>
-              <span class="label color2">重要会议</span>
-              <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-              <span class="time">2018-10-02</span>
+              <a href="">
+                <span class="label color2">重要会议</span>
+                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
+                <span class="time">2018-10-02</span>
+              </a>
             </li>
             <li>
-              <span class="label color1">通知公告</span>
-              <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-              <span class="time">2018-10-02</span>
+              <a href="">
+                <span class="label color1">通知公告</span>
+                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
+                <span class="time">2018-10-02</span>
+              </a>
             </li>
             <li>
-              <span class="label color2">重要会议</span>
-              <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-              <span class="time">2018-10-02</span>
+              <a href="">
+                <span class="label color2">重要会议</span>
+                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
+                <span class="time">2018-10-02</span>
+              </a>
             </li>
             <li>
-              <span class="label color1">通知公告</span>
-              <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-              <span class="time">2018-10-02</span>
+              <a href="">
+                <span class="label color1">通知公告</span>
+                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
+                <span class="time">2018-10-02</span>
+              </a>
             </li>
             <li>
-              <span class="label color1">通知公告</span>
-              <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-              <span class="time">2018-10-02</span>
+              <a href="">
+                <span class="label color1">通知公告</span>
+                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
+                <span class="time">2018-10-02</span>
+              </a>
             </li>
             <li>
-              <span class="label color2">重要会议</span>
-              <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-              <span class="time">2018-10-02</span>
+              <a href="">
+                <span class="label color2">重要会议</span>
+                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
+                <span class="time">2018-10-02</span>
+              </a>
             </li>
           </ul>
         </div>

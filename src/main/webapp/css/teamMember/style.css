@@ -3,8 +3,6 @@
 .member-container .member-panel {
   display: inline-block;
   width: 30.3%;
-  margin: 0 4.2% 70px 0;
-  padding-bottom: 26px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -15,8 +13,6 @@
 }
 .member-container .member-panel .avatar {
   float: left;
-  width: 130px;
-  height: 130px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -26,20 +22,15 @@
   height: 100%;
 }
 .member-container .member-panel .member-info {
-  margin-left: 130px;
-  padding-left: 28px;
 }
 .member-panel .member-info>.name {
-  margin-bottom: 20px;
-  font-size: 20px;
   color: #015db2;
 }
 .member-panel .member-info>.research-area{
-  color: #222;
+  color: #444;
 }
 .member-panel .member-info>.research-area>span{
   display: block;
-  margin-bottom: 10px;
 }
 .member-panel .member-info>.research-area>span:last-child{
   margin-bottom: 0;
@@ -53,14 +44,108 @@
 }
 
 @media screen and (min-width:2560px) {
-
+  .member-container .member-panel{
+    margin-right: 4.2%;
+    margin-bottom: 70px;
+  }
+  .member-container .member-panel .avatar{
+    width: 130px;
+    height: 130px;
+  }
+  .member-container .member-panel .member-info{
+    margin-left: 130px;
+    padding-left: 25px;
+  }
+  .member-panel .member-info>.name{
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+  .member-panel .member-info>.research-area{
+    font-size: 16px;
+  }
+  .member-panel .member-info>.research-area>span{
+    margin-bottom: 10px;
+  }
+  .member-panel .member-info>.academy{
+    margin-top: 25px;
+  }
 }
 @media screen and (min-width:1920px) and (max-width:2560px) {
-
+  .member-container .member-panel{
+    margin-right: 4.2%;
+    margin-bottom: 45px;
+    padding-bottom: 45px;
+    
+  }
+  .member-container .member-panel .avatar{
+    width: 130px;
+    height: 130px;
+  }
+  .member-container .member-panel .member-info{
+    margin-left: 130px;
+    padding-left: 25px;
+  }
+  .member-panel .member-info>.name{
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+  .member-panel .member-info>.research-area{
+    font-size: 14px;
+  }
+  .member-panel .member-info>.research-area>span{
+    margin-bottom: 10px;
+  }
+  .member-panel .member-info>.academy{
+    margin-top: 20px;
+  }
 }
 @media screen and (min-width:1500px) and (max-width:1920px) {
-
+  .member-container .member-panel{
+    margin-right: 4.2%;
+    margin-bottom: 35px;
+    padding-bottom: 35px;
+  }
+  .member-container .member-panel .avatar{
+    width: 130px;
+    height: 130px;
+  }
+  .member-container .member-panel .member-info{
+    margin-left: 130px;
+    padding-left: 20px;
+  }
+  .member-panel .member-info>.name{
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .member-panel .member-info>.research-area{
+    font-size: 14px;
+  }
 }
 @media screen and (max-width:1500px) {
-
+  .member-container .member-panel{
+    margin-right: 3.2%;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+  }
+  .member-container .member-panel .avatar{
+    width: 110px;
+    height: 110px;
+  }
+  .member-container .member-panel .member-info{
+    margin-left: 110px;
+    padding-left: 15px;
+  }
+  .member-panel .member-info>.name{
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .member-panel .member-info>.research-area{
+    font-size: 12px;
+  }
+  .member-panel .member-info>.research-area>span{
+    margin-bottom: 10px;
+  }
+  .member-panel .member-info>.academy{
+    margin-top: 15px;
+  }
 }

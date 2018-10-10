@@ -420,9 +420,15 @@ textarea {
     margin-bottom: 30px;
     font-size: 22px;
   }
+  .nav-panel {
+    height: 300px;
+  }
+  .nav-panel>.nav-center{
+    width: 1600px;
+  }
   
 }
-@media screen and (min-width:1920px) and (max-width:2560px) {
+@media screen and (min-width:1925px) and (max-width:2560px) {
   body{
     font-size: 16px;
   }
@@ -436,9 +442,15 @@ textarea {
     margin-bottom: 30px;
     font-size: 22px;
   }
+  .nav-panel {
+    height: 280px;
+  }
+  .nav-panel>.nav-center{
+    width: 1400px;
+  }
 }
 
-@media screen and (min-width:1500px) and (max-width:1920px) {
+@media screen and (min-width:1500px) and (max-width:1925px) {
   body{
     font-size: 16px;
   }
@@ -451,6 +463,12 @@ textarea {
   .container .container-header{
     margin-bottom: 25px;
     font-size: 20px;
+  }
+  .nav-panel {
+    height: 250px;
+  }
+  .nav-panel>.nav-center{
+    width: 1200px;
   }
 }
 
@@ -467,6 +485,12 @@ textarea {
   .container .container-header{
     margin-bottom: 25px;
     font-size: 20px;
+  }
+  .nav-panel {
+    height: 220px;
+  }
+  .nav-panel>.nav-center{
+    width: 1000px;
   }
 }
 
