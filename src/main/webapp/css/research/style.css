@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* 研究方向 */
-
 .research-container .research-panel {
   margin-bottom: 1.5em;
 }
@@ -8,7 +7,7 @@
   padding-bottom: 1em;
   font-size: 1.5em;
   border-bottom: 1px dashed rgba(0,0,0,0.3);
-  line-height: 1.2;
+  line-height: 1.5;
   color: #015db2;
 }
 .research-container .research-panel>.panel-body {
@@ -16,10 +15,9 @@
 }
 .research-container .research-panel>.panel-body>p{
   margin: 0;
-  line-height: 1.2;
+  line-height: 1.5;
   color: #444;
 }
-
 .research-container .research-panel>.panel-footer {
   padding-top: 1em;
 }

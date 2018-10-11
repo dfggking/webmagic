@@ -1,9 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.util.Date"%>
 <!DOCTYPE html>
 <html>
 <head>
   <%@include file="../common/head.jsp"%>
-  <link href="/css/thesis/style.css" rel="stylesheet">
+  <link href="/css/thesis/style.css?v=<%=new Date().getTime() %>" rel="stylesheet">
 </head>
 <body>
   <header class="top-header">
@@ -41,7 +42,7 @@
     <div class="condition">
       <div class="c-row">
         <span class="name">年份：</span>
-        <ul class="clearfix">
+        <ul id="J_condition_year" class="clearfix">
           <li class="active">2018</li>
           <li>2017</li>
           <li>2016</li>
@@ -65,7 +66,7 @@
       </div>
       <div class="c-row">
         <span class="name">类型：</span>
-        <ul class="clearfix">
+        <ul id="J_condition_type" class="clearfix">
           <li class="active">会议</li>
           <li>期刊</li>
         </ul>
@@ -112,10 +113,15 @@
   <jsp:include page="../common/footer.jsp" />
   <script>
     $(function(){
-
-
-      $('img').on('mousedown',function (e) {
-          e.preventDefault();
+      var $typeLi = $('#J_condition_type li');
+      $typeLi.click(function(){
+        $typeLi.removeClass('active');
+        $(this).addClass('active');
+      });
+      var $yearLi = $('#J_condition_year li');
+      $yearLi.click(function(){
+        $yearLi.removeClass('active');
+        $(this).addClass('active');
       });
     });
   </script>

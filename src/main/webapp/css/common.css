@@ -6,6 +6,7 @@ html {
 }
 body {
   font-family: "Microsoft YaHei", 微x8F6F正黑体, 华文黑体, STHeiti, 思源黑体, "Noto Sans CJK SC", 方正黑体, 宋体, SimSun, regular, 微软雅黑, 黑体, 宋体, "Hiragino Sans GB", tahoma, helvetica, arial;
+  /* font-family: "Arial",'Microsoft Yahei',"Lucida Grande", "Tahoma", "Helvetica", "sans-serif"; */
 }
 a {
   text-decoration: none;
@@ -197,7 +198,7 @@ textarea {
 
 /** 页面公共样式  */
 .top-header {
-  height: 5em;
+  height: 6.875em;
 }
 .top-header .h-center {
   position: relative;
@@ -207,7 +208,8 @@ textarea {
 .top-header .h-center .h-logo {
   float: left;
   width: auto;
-  height: 5em;
+  height: 5.875em;
+  margin: 0.5em 0;
 }
 .top-header .h-center .h-logo>img {
   width: auto;
@@ -217,11 +219,12 @@ textarea {
   position: absolute;
   top: 50%;
   right: 0;
-  margin-top: -10px;
+  margin-top: -0.5em;
   z-index: 0;
 }
 .h-nav {
   display: inline-block;
+  font-size: 1em;
 }
 .h-nav ul {
   display: inline-block;
@@ -229,8 +232,8 @@ textarea {
 }
 .h-nav ul>li {
   float: left;
-  margin-right: 20px;
-  line-height: 20px;
+  margin-right: 1em;
+  line-height: 1em;
 }
 .h-nav ul>li:last-child {
   margin-right: 0;
@@ -246,11 +249,11 @@ textarea {
 
 .container,
 .nav-panel>.nav-center{
-  width: 70%;
+  width: 71.8%;
   margin: 0 auto;
 }
 .container.top-margin{
-  margin-top: 5em;
+  margin-top: 3em;
 }
 .nav-panel {
   height: 18em;
@@ -284,6 +287,7 @@ textarea {
 .nav-panel>.nav-center .nav-span {
   position: absolute;
   bottom: 10.6029032%;
+  font-size: 1em;
 }
 .nav-panel>.nav-center .nav-span>a {
   float: left;
@@ -339,6 +343,7 @@ textarea {
   margin-top: 5em;
   background: url("/images/footer-bg.jpg") center;
   color: #fff;
+  font-size: 1em;
 }
 .footer>.container {
   height: 100%;
@@ -387,7 +392,7 @@ textarea {
   margin-bottom: 5em;
 }
 .introduction>p {
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: #222222;
   line-height: 1.5;
 }
@@ -418,29 +423,34 @@ textarea {
     font-size: 24px;
   }
 }
-@media screen and (min-width:1925px) and (max-width:2560px) {
+@media screen and (min-width:2048px) and (max-width:2560px) {
   body{
     font-size: 20px;
   }
 }
 
-@media screen and (min-width:1750px) and (max-width:1925px) {
+@media screen and (min-width:1750px) and (max-width:2048px) {
   body{
     font-size: 16px;
   }
 }
 
-@media screen and (min-width:1433px) and (max-width:1750px) {
+@media screen and (min-width:1440px) and (max-width:1750px) {
+  body{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width:1250px) and (max-width:1440px) {
   body{
     font-size: 14px;
   }
 }
 
-@media screen and (max-width:1433px) {
+@media screen and (max-width:1250px) {
   body{
-    font-size: 12px;
+    font-size: 13px;
   }
 }
-
 
 

@@ -1,9 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.util.Date"%>
 <!DOCTYPE html>
 <html>
 <head>
   <%@include file="../common/head.jsp"%>
-  <link href="/css/news/style.css" rel="stylesheet">
+  <link href="/css/news/style.css?v=<%=new Date().getTime() %>" rel="stylesheet">
 </head>
 <body>
   <header class="top-header">

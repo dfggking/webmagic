@@ -1,10 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.util.Date"%>
 <!DOCTYPE html>
 <html>
   <head>
     <%@include file="./common/head.jsp"%>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.0/css/swiper.min.css" rel="stylesheet">
-    <link href="/css/index.css" rel="stylesheet">
+    <link href="/css/index.css?v=<%=new Date().getTime() %>" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.0/js/swiper.min.js"></script>
   </head>
   <body>
@@ -83,11 +84,11 @@
               </div>
               <div class="swiper-slide">
                 <img class="swiper-img" src="/images/information.jpg">
-                <p class="swiper-title">北京交通大学 2016年11月研究生发表高水平论文奖励通知奖励通知奖励通知</p>
+                <p class="swiper-title">关于拟对薛冰等234名在职专业学位研究生进行退学处理的通知</p>
               </div>
               <div class="swiper-slide">
                 <img class="swiper-img" src="/images/information.jpg">
-                <p class="swiper-title">北京交通大学 2016年11月研究生发表高水平论文奖励通知</p>
+                <p class="swiper-title">关于2018-2019学年第一学期研究生学籍注册的通知 （全日制/非全日制/博...</p>
               </div>
             </div>
             <div class="swiper-button-prev"></div><!--左箭头-->
@@ -99,57 +100,57 @@
             <li class="active">
               <a href="">
                 <span class="label color1">通知公告</span>
-                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-                <span class="time">2018-10-02</span>
+                <span class="title">关于2018-2019学年第一学期在职专业学位研究生注册的通知</span>
+                <span class="time">[2018-10-02]</span>
               </a>
             </li>
             <li>
               <a href="">
                 <span class="label color1">通知公告</span>
-                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-                <span class="time">2018-10-02</span>
+                <span class="title">关于拟对许艳宁等3名在职专业学位研究生进行退学处理的通知</span>
+                <span class="time">[2018-10-02]</span>
               </a>
             </li>
             <li>
               <a href="">
                 <span class="label color2">重要会议</span>
-                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-                <span class="time">2018-10-02</span>
+                <span class="title">2018年9月在职研究生毕业论文答辩报名通知！</span>
+                <span class="time">[2018-07-02]</span>
               </a>
             </li>
             <li>
               <a href="">
                 <span class="label color1">通知公告</span>
-                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-                <span class="time">2018-10-02</span>
+                <span class="title">关于对2013年9月入学的在职专业学位研究生延期申请的通知！！</span>
+                <span class="time">[2018-10-02]</span>
               </a>
             </li>
             <li>
               <a href="">
                 <span class="label color2">重要会议</span>
-                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-                <span class="time">2018-10-02</span>
+                <span class="title">关于全面清理超期研究生学籍的通知！！</span>
+                <span class="time">[2018-10-02]</span>
               </a>
             </li>
             <li>
               <a href="">
                 <span class="label color1">通知公告</span>
-                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-                <span class="time">2018-10-02</span>
+                <span class="title">关于拟对张继辉等44名在职专业学位研究生进行退学处理的通知</span>
+                <span class="time">[2018-10-02]</span>
               </a>
             </li>
             <li>
               <a href="">
                 <span class="label color1">通知公告</span>
-                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-                <span class="time">2018-10-02</span>
+                <span class="title">关于对2014年4月入学但未毕业的在职专业学位研究生进行第一次学业警示的通知</span>
+                <span class="time">[2018-10-02]</span>
               </a>
             </li>
             <li>
               <a href="">
                 <span class="label color2">重要会议</span>
-                <span class="title">关于拟录取推荐免试研究生加入2017级计算机新生群的通知</span>
-                <span class="time">2018-10-02</span>
+                <span class="title">在职专业学位研究生学费缴纳及发票认领注意事项</span>
+                <span class="time">[2018-10-02]</span>
               </a>
             </li>
           </ul>

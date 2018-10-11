@@ -35,13 +35,17 @@
   color: #666;
 }
 .level-module .project-list>.project-panel>p.intro {
-  margin-bottom: 12px;
+  height: 2.4em;
+  margin-bottom: 1em;
+  line-height: 1.2;
+  overflow: hidden;
+
 }
 
 .level-module .project-list>.project-panel>.time{
 }
 .co-enterprise>header {
-  margin-bottom: 30px;
+  margin-bottom: 2em;
   text-align: center;
   color: #222;
 }
