@@ -6,17 +6,16 @@
   padding-bottom: 1em;
   color: #015db2;
   border-bottom: 1px solid #ddd;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 .project-container .level-module .project-list {
-  margin-bottom: 2em;
+  margin-bottom: 4em;
 }
-
 .project-container .level-module .project-list>.project-panel{
   float: left;
   width: 46%;
-  margin-top: 1.5em;
-  padding-bottom: 1.5em;
+  margin-top: 1.875em;
+  padding-bottom: 1.625em;
   border-bottom: 1px dotted #ddd;
 }
 .project-container .level-module .project-list>.project-panel:nth-child(2n) {
@@ -26,32 +25,30 @@
   margin-right: 4%;
 }
 .level-module .project-list>.project-panel>.p-title {
-  font-size: 1.2em;
+  font-size: 1.125em;
   margin-bottom: 1em;
   color: #222222;
 }
-
 .level-module .project-list>.project-panel{
   color: #666;
 }
 .level-module .project-list>.project-panel>p.intro {
-  height: 2.4em;
+  height: 3em;
   margin-bottom: 1em;
-  line-height: 1.2;
+  line-height: 1.5;
   overflow: hidden;
-
 }
-
 .level-module .project-list>.project-panel>.time{
+
 }
 .co-enterprise>header {
-  margin-bottom: 2em;
+  margin-bottom: 1.875em;
   text-align: center;
   color: #222;
 }
 
 .co-enterprise>header{
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 .co-enterprise table.enterprise{
   border: 0;
@@ -59,7 +56,6 @@
 .co-enterprise .enterprise>tbody>tr{
 }
 .co-enterprise .enterprise>tbody>tr>td {
-
   padding: 0;
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;

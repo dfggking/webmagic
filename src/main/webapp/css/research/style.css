@@ -1,17 +1,26 @@
 @charset "UTF-8";
+
+.introduction {
+  margin-bottom: 4em;
+}
+.introduction>p {
+  font-size: 1em;
+  color: #222222;
+  line-height: 1.5em;
+}
 /* 研究方向 */
 .research-container .research-panel {
   margin-bottom: 1.5em;
 }
 .research-container .research-panel>header {
-  padding-bottom: 1em;
-  font-size: 1.5em;
+  padding-bottom: 12px;
+  font-size: 1.125em;
   border-bottom: 1px dashed rgba(0,0,0,0.3);
-  line-height: 1.5;
+  line-height: 1;
   color: #015db2;
 }
 .research-container .research-panel>.panel-body {
-  padding-top: 1em;
+  padding-top: 18px;
 }
 .research-container .research-panel>.panel-body>p{
   margin: 0;
@@ -25,6 +34,8 @@
   text-align: right;
 }
 .research-container .research-panel>.panel-footer>.more>a {
+  display: inline-block;
+  font-size: 0.875em;
   color: #015db2;
 }
 .research-container .research-panel>.panel-footer>.more>a:after{
@@ -33,15 +44,15 @@
   background: url(/images/more2.png);
   -webkit-background-size: contain;
   background-size: contain;
-  width: 1em;
-  height: 1em;
+  width: 0.875em;
+  height: 0.875em;
   float: right;
 }
 .research-container .research-footer {
-  margin-top: 5em;
+  margin-top: 4em;
   padding: 0 0.5em;
   width: 100%;
-  height: 18em;
+  height: 16em;
 }
 .research-container .research-footer>img {
   width: 100%;

@@ -21,12 +21,12 @@
 }
 
 .news-container .news-list>.news-panel>h4 {
-  height: 2.4em;
+  height: 3em;
   padding: 10px 0;
   border-bottom: 1px solid #ddd;
-  line-height: 1.2;
+  line-height: 1.5;
   font-weight: normal;
-  color: #222;
+  color: #333;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;

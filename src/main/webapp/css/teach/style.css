@@ -4,14 +4,14 @@
   margin-bottom: 2em;
 }
 .course-panel>header {
-  padding-bottom: 1em;
+  padding-bottom: 0.875em;
   border-bottom: 1px dashed rgba(0,0,0,0.3);
-  line-height: 1.2;
-  font-size: 1.2em;
+  line-height: 1;
+  font-size: 1em;
   color: #015db2;
 }
 .course-panel>.panel-body {
-  margin-top: 1em;
+  margin-top: 1.25em;
 }
 .course-panel>.panel-body>p{
   margin: 0;
