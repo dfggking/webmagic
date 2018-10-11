@@ -1,44 +1,20 @@
 @charset "UTF-8";
 /** 课程教学 */
-.course-container .container-center {
-  width: 80%;
-  margin: 80px auto 0;
+.course-panel {
+  margin-bottom: 2em;
 }
 .course-panel>header {
-  padding-bottom: 15px;
+  padding-bottom: 1em;
   border-bottom: 1px dashed rgba(0,0,0,0.3);
   line-height: 1.2;
+  font-size: 1.2em;
   color: #015db2;
-  font-size: 16px;
 }
 .course-panel>.panel-body {
-  margin-top: 15px;
+  margin-top: 1em;
 }
 .course-panel>.panel-body>p{
   margin: 0;
-  line-height: 1.5;
+  line-height: 1.2;
   color: #444;
-  font-size: 14px;
 }
-
-@media screen and (min-width:2560px) {
-  .course-panel {
-    margin-bottom: 50px;
-  }
-}
-@media screen and (min-width:1920px) and (max-width:2560px) {
-  .course-panel {
-    margin-bottom: 50px;
-  }
-}
-@media screen and (min-width:1500px) and (max-width:1920px) {
-  .course-panel {
-    margin-bottom: 50px;
-  }
-}
-@media screen and (max-width:1500px) {
-  .course-panel {
-    margin-bottom: 30px;
-  }
-}
-

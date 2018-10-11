@@ -26,7 +26,7 @@
       </div>
     </div>
   </header>
-  <div class="nav-panel nav-teamMember">
+  <div class="nav-panel nav-researchDirection">
     <div class="nav-center">
       <div class="nav-title clearfix"><span class="label">一一</span><span>研究方向</span></div>
       <h2 class="nav-h2">Research Direction</h2>

@@ -3,55 +3,54 @@
 .project-container .level-module {
 }
 .project-container .level-module>header {
-  padding-bottom: 16px;
+  padding-bottom: 1em;
   color: #015db2;
-  font-size: 20px;
   border-bottom: 1px solid #ddd;
+  font-size: 1.5em;
 }
 .project-container .level-module .project-list {
-  margin-bottom: 30px;
+  margin-bottom: 2em;
 }
+
 .project-container .level-module .project-list>.project-panel{
   float: left;
-  width: calc(50% - 20px);
-  margin-top: 30px;
-  padding-bottom: 26px;
+  width: 46%;
+  margin-top: 1.5em;
+  padding-bottom: 1.5em;
   border-bottom: 1px dotted #ddd;
 }
 .project-container .level-module .project-list>.project-panel:nth-child(2n) {
-  margin-left: 20px;
+  margin-left: 4%;
 }
 .project-container .level-module .project-list>.project-panel:nth-child(2n+1) {
-  margin-right: 20px;
+  margin-right: 4%;
 }
 .level-module .project-list>.project-panel>.p-title {
-  margin-bottom: 16px;
+  font-size: 1.2em;
+  margin-bottom: 1em;
   color: #222222;
-  font-size: 16px;
+}
+
+.level-module .project-list>.project-panel{
+  color: #666;
 }
 .level-module .project-list>.project-panel>p.intro {
   margin-bottom: 12px;
-  font-size: 14px;
-  color: #666;
 }
 
 .level-module .project-list>.project-panel>.time{
-  color: #666;
-  font-size: 14px;
-}
-.co-enterprise {
-  width: 80%;
-  margin: 80px auto;
 }
 .co-enterprise>header {
   margin-bottom: 30px;
   text-align: center;
-  font-size: 20px;
   color: #222;
+}
+
+.co-enterprise>header{
+  font-size: 1.5em;
 }
 .co-enterprise table.enterprise{
   border: 0;
-
 }
 .co-enterprise .enterprise>tbody>tr{
 }
@@ -72,24 +71,9 @@
   width: 100%;
   height: auto;
 }
+.co-enterprise .enterprise>tbody>tr>td{
+  width: 149px;
+}
 
-@media screen and (min-width:2560px) {
-  .co-enterprise .enterprise>tbody>tr>td{
-    width: 149px;
-  }
-}
-@media screen and (min-width:1920px) and (max-width:2560px) {
-  .co-enterprise .enterprise>tbody>tr>td{
-    width: 149px;
-  }
-}
-@media screen and (min-width:1500px) and (max-width:1920px) {
-  .co-enterprise .enterprise>tbody>tr>td{
-    width: 149px;
-  }
-}
-@media screen and (max-width:1500px) {
-  .co-enterprise .enterprise>tbody>tr>td{
-    width: 124px;
-  }
-}
+
+

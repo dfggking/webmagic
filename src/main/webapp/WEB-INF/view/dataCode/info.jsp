@@ -64,7 +64,7 @@
         </ul>
 
         <ul class="clearfix">
-          <li><a class="pagelink" target="_blank" href="code_MDDM.ashx" title="MDDM">MDDM</a> Data for for multi-label dimensionality reduction.</li>
+          <li><a class="pagelink" target="_blank" href="code_MDDM.ashx" title="MDDM">MDDM</a> Data for for multi-label dimensionality reduction.<a class="pagelink" target="_blank" href="code_MDDM.ashx" title="MDDM">MDDM</a> Data for for multi-label dimensionality reduction.<a class="pagelink" target="_blank" href="code_MDDM.ashx" title="MDDM">MDDM</a> Data for for multi-label dimensionality reduction.</li>
           <li>
             <span class="count">已下载：3254次</span>
             <span class="download">下载</span>

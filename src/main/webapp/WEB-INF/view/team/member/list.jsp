@@ -37,7 +37,7 @@
         </span>
       </div>
     </div>
-    <div class="container member-container top-margin">
+    <div class="container member-container top-margin clearfix">
       <div class="member-panel">
         <div class="avatar">
           <img src="/images/avatar.png">
