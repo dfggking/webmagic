@@ -6,7 +6,7 @@
       <synchronize>true</synchronize>
       <remarks>midas</remarks>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://106.12.103.46:3396/df_midas</jdbc-url>
+      <jdbc-url>jdbc:mysql://106.12.103.46:3386/df_midas</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

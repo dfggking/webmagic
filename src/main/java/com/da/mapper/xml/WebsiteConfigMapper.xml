@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.da.mapper.WebsiteConfigMapper" >
+  <resultMap id="BaseResultMap" type="com.da.pojo.WebsiteConfig" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="seq_id" property="seqId" jdbcType="INTEGER" />
+    <result column="website_name" property="websiteName" jdbcType="VARCHAR" />
+    <result column="copyright" property="copyright" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="description" property="description" jdbcType="VARCHAR" />
+    <result column="website_title" property="websiteTitle" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, seq_id, website_name, copyright, address, email, description, website_title
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from website_config
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from website_config
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.da.pojo.WebsiteConfig" >
+    insert into website_config (id, seq_id, website_name, 
+      copyright, address, email, 
+      description, website_title)
+    values (#{id,jdbcType=INTEGER}, #{seqId,jdbcType=INTEGER}, #{websiteName,jdbcType=VARCHAR}, 
+      #{copyright,jdbcType=VARCHAR}, #{address,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, 
+      #{description,jdbcType=VARCHAR}, #{websiteTitle,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.da.pojo.WebsiteConfig" >
+    insert into website_config
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="seqId != null" >
+        seq_id,
+      </if>
+      <if test="websiteName != null" >
+        website_name,
+      </if>
+      <if test="copyright != null" >
+        copyright,
+      </if>
+      <if test="address != null" >
+        address,
+      </if>
+      <if test="email != null" >
+        email,
+      </if>
+      <if test="description != null" >
+        description,
+      </if>
+      <if test="websiteTitle != null" >
+        website_title,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="seqId != null" >
+        #{seqId,jdbcType=INTEGER},
+      </if>
+      <if test="websiteName != null" >
+        #{websiteName,jdbcType=VARCHAR},
+      </if>
+      <if test="copyright != null" >
+        #{copyright,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null" >
+        #{description,jdbcType=VARCHAR},
+      </if>
+      <if test="websiteTitle != null" >
+        #{websiteTitle,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.da.pojo.WebsiteConfig" >
+    update website_config
+    <set >
+      <if test="seqId != null" >
+        seq_id = #{seqId,jdbcType=INTEGER},
+      </if>
+      <if test="websiteName != null" >
+        website_name = #{websiteName,jdbcType=VARCHAR},
+      </if>
+      <if test="copyright != null" >
+        copyright = #{copyright,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="description != null" >
+        description = #{description,jdbcType=VARCHAR},
+      </if>
+      <if test="websiteTitle != null" >
+        website_title = #{websiteTitle,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.da.pojo.WebsiteConfig" >
+    update website_config
+    set seq_id = #{seqId,jdbcType=INTEGER},
+      website_name = #{websiteName,jdbcType=VARCHAR},
+      copyright = #{copyright,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
+      description = #{description,jdbcType=VARCHAR},
+      website_title = #{websiteTitle,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

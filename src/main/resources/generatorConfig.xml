@@ -27,12 +27,14 @@
         targetPackage：生成的实体包位置，默认存放在src目录下
         targetProject：目标工程名
      -->
-    <javaModelGenerator targetPackage="com.da.pojo"
-                        targetProject="src/main/java" />
+    <javaModelGenerator targetPackage="com.da.pojo" targetProject="src/main/java" />
     
     <!-- 实体包对应映射文件位置及名称，默认存放在src目录下 -->
-    <sqlMapGenerator targetPackage="com.da.mapper" targetProject="src/main/java" />
-    
+    <sqlMapGenerator targetPackage="com.da.mapper.xml" targetProject="src/main/java" />
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.da.mapper" targetProject="./src/main/java">
+      <property name="enableSubPackages" value="false" />
+    </javaClientGenerator>
+   
     <!-- 配置表
         schema：不用填写
         tableName: 表名
@@ -46,11 +48,13 @@
     <table schema="" tableName="menu" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" />
     <table schema="" tableName="information" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" />
     <table schema="" tableName="member" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" />
+    <table schema="" tableName="sys_config" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" />
     <table schema="" tableName="sys_dic_item" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" />
     <table schema="" tableName="sys_dic_type" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" />
     <table schema="" tableName="sys_login_log" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" />
     <table schema="" tableName="sys_operator_log" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" />
     <table schema="" tableName="user_role" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" />
     <table schema="" tableName="web_config" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" />
+    <table schema="" tableName="website_config" enableCountByExample="false" enableSelectByExample="false" enableDeleteByExample="false" enableUpdateByExample="false" selectByExampleQueryId="false" />
   </context>
 </generatorConfiguration>

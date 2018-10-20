@@ -10,6 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="caidc" target="1.7" />
       <module name="webmagic" target="1.8" />
     </bytecodeTargetLevel>
   </component>
