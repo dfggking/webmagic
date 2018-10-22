@@ -19,13 +19,13 @@
         <dl class="layui-nav-child">
           <!-- 二级菜单 -->
           <dd>
-            <a onclick="x_admin_show('资讯','http://www.baidu.com')"><i class="iconfont">&#xe6a2;</i>资讯</a>
+            <a onclick="x_admin_show('备用','http://www.baidu.com')"><i class="iconfont">&#xe6a2;</i>备用</a>
           </dd>
           <dd>
-            <a onclick="x_admin_show('图片','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>图片</a>
+            <a onclick="x_admin_show('备用','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>备用</a>
           </dd>
           <dd>
-            <a onclick="x_admin_show('用户','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>用户</a>
+            <a onclick="x_admin_show('备用','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>备用</a>
           </dd>
         </dl></li>
     </ul>
@@ -58,22 +58,13 @@
             <i class="iconfont">&#xe6b8;</i><cite>系统管理</cite><i class="iconfont nav_right">&#xe697;</i>
           </a>
           <ul class="sub-menu">
-            <li><a _href="member-list"><i class="iconfont">&#xe6a7;</i><cite>用户列表</cite></a></li>
-            <li>
-              <a href="javascript:;">
-                <i class="iconfont">&#xe70b;</i><cite>XX管理</cite><i class="iconfont nav_right">&#xe697;</i>
-              </a>
-              <ul class="sub-menu">
-                <li><a _href="xxx.html"><i class="iconfont">&#xe6a7;</i><cite>XX列表</cite></a></li>
-                <li><a _href="xx.html"><i class="iconfont">&#xe6a7;</i><cite>XX删除</cite></a></li>
-                <li><a _href="xx.html"><i class="iconfont">&#xe6a7;</i><cite>XX管理</cite></a></li>
-              </ul>
-            </li>
+            <li><a _href="./website/config"><i class="iconfont">&#xe6a7;</i><cite>网站配置</cite></a></li>
+            <li><a _href="javascript:;"><i class="iconfont">&#xe6a7;</i><cite>开发中</cite></a></li>
           </ul>
         </li>
         <li>
           <a href="javascript:;">
-            <i class="iconfont">&#xe699;</i><cite>菜单管理</cite><i class="iconfont nav_right">&#xe697;</i>
+            <i class="iconfont">&#xe699;</i><cite>模块管理</cite><i class="iconfont nav_right">&#xe697;</i>
           </a>
           <ul class="sub-menu">
             <li>
@@ -81,8 +72,9 @@
                 <i class="iconfont">&#xe6b5;</i><cite>网站首页</cite><i class="iconfont nav_right">&#xe697;</i>
               </a>
               <ul class="sub-menu">
-                <li><a _href="./home/introduce.jsp"><i class="iconfont">&#xe6a7;</i><cite>研究所介绍</cite></a></li>
-                <li><a _href="xx.html"><i class="iconfont">&#xe6a7;</i><cite>新闻列表</cite></a></li>
+                <li><a _href="./homepage/swiper"><i class="iconfont">&#xe6a7;</i><cite>轮播图管理</cite></a></li>
+                <li><a _href="./homepage/institute/introduce"><i class="iconfont">&#xe6a7;</i><cite>研究所介绍</cite></a></li>
+                <li><a _href="./homepage/institute/information"><i class="iconfont">&#xe6a7;</i><cite>研究所资讯</cite></a></li>
               </ul>
             </li>
             <li>
@@ -90,7 +82,7 @@
                 <i class="iconfont">&#xe6b5;</i><cite>团队成员</cite><i class="iconfont nav_right">&#xe697;</i>
               </a>
               <ul class="sub-menu">
-                <li><a _href="xxx.html"><i class="iconfont">&#xe6a7;</i><cite>介绍</cite></a></li>
+                <li><a _href="./member/list/page"><i class="iconfont">&#xe6a7;</i><cite>成员列表</cite></a></li>
               </ul>
             </li>
             <li>
@@ -167,6 +159,7 @@
   <!-- 底部开始 -->
   <div class="footer">
     <div class="copyright">Copyright ©2018 DFGGKING All Rights Reserved</div>
+    <div class="author">技术支持：835317619@qq.com</div>
   </div>
 </body>
 </html>

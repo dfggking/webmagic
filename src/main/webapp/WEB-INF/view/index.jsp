@@ -71,8 +71,8 @@
     </section>
     <section class="container top-margin">
       <header class="container-header clearfix">
-        <h4 class="title">实验室资讯</h4>
-        <span class="sub-title">Laboratory Information</span>
+        <h4 class="title">研究所资讯</h4>
+        <span class="sub-title">Institute Information</span>
       </header>
       <div class="container-content clearfix">
         <div class="c-img">
