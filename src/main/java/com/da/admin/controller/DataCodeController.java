@@ -4,9 +4,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-@Controller("admin/memberController")
-@RequestMapping("admin/member")
-public class MemberController {
+/**
+ * 数据与代码
+ */
+@Controller("admin/dataCodeController")
+@RequestMapping("admin/datacode")
+public class DataCodeController {
     @RequestMapping("list")
     public ModelAndView list() {
         ModelAndView mv = new ModelAndView();

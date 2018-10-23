@@ -4,9 +4,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-@Controller("admin/memberController")
-@RequestMapping("admin/member")
-public class MemberController {
+/**
+ * 招生信息
+ */
+@Controller("admin/admissionController")
+@RequestMapping("admin/admission")
+public class AdmissionController {
     @RequestMapping("list")
     public ModelAndView list() {
         ModelAndView mv = new ModelAndView();

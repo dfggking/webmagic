@@ -82,7 +82,7 @@
                 <i class="iconfont">&#xe6b5;</i><cite>团队成员</cite><i class="iconfont nav_right">&#xe697;</i>
               </a>
               <ul class="sub-menu">
-                <li><a _href="./member/list/page"><i class="iconfont">&#xe6a7;</i><cite>成员列表</cite></a></li>
+                <li><a _href="./member/list"><i class="iconfont">&#xe6a7;</i><cite>成员列表</cite></a></li>
               </ul>
             </li>
             <li>
@@ -90,7 +90,7 @@
                 <i class="iconfont">&#xe6b5;</i><cite>研究方向</cite><i class="iconfont nav_right">&#xe697;</i>
               </a>
               <ul class="sub-menu">
-                <li><a _href="xxx.html"><i class="iconfont">&#xe6a7;</i><cite>介绍</cite></a></li>
+                <li><a _href="./rdirection/list"><i class="iconfont">&#xe6a7;</i><cite>研究列表</cite></a></li>
               </ul>
             </li>
             <li>
@@ -98,7 +98,7 @@
                 <i class="iconfont">&#xe6b5;</i><cite>论文著作</cite><i class="iconfont nav_right">&#xe697;</i>
               </a>
               <ul class="sub-menu">
-                <li><a _href="xxx.html"><i class="iconfont">&#xe6a7;</i><cite>介绍</cite></a></li>
+                <li><a _href="./thesis/list"><i class="iconfont">&#xe6a7;</i><cite>论文列表</cite></a></li>
               </ul>
             </li>
             <li>
@@ -106,7 +106,7 @@
                 <i class="iconfont">&#xe6b5;</i><cite>科研项目</cite><i class="iconfont nav_right">&#xe697;</i>
               </a>
               <ul class="sub-menu">
-                <li><a _href="xxx.html"><i class="iconfont">&#xe6a7;</i><cite>介绍</cite></a></li>
+                <li><a _href="./rproject/list"><i class="iconfont">&#xe6a7;</i><cite>项目列表</cite></a></li>
               </ul>
             </li>
             <li>
@@ -114,7 +114,7 @@
                 <i class="iconfont">&#xe6b5;</i><cite>新闻动态</cite><i class="iconfont nav_right">&#xe697;</i>
               </a>
               <ul class="sub-menu">
-                <li><a _href="xxx.html"><i class="iconfont">&#xe6a7;</i><cite>介绍</cite></a></li>
+                <li><a _href="./news/list"><i class="iconfont">&#xe6a7;</i><cite>新闻列表</cite></a></li>
               </ul>
             </li>
             <li>
@@ -122,7 +122,7 @@
                 <i class="iconfont">&#xe6b5;</i><cite>课程教学</cite><i class="iconfont nav_right">&#xe697;</i>
               </a>
               <ul class="sub-menu">
-                <li><a _href="xxx.html"><i class="iconfont">&#xe6a7;</i><cite>介绍</cite></a></li>
+                <li><a _href="./course/list"><i class="iconfont">&#xe6a7;</i><cite>课程列表</cite></a></li>
               </ul>
             </li>
             <li>
@@ -130,7 +130,7 @@
                 <i class="iconfont">&#xe6b5;</i><cite>招生信息</cite><i class="iconfont nav_right">&#xe697;</i>
               </a>
               <ul class="sub-menu">
-                <li><a _href="xxx.html"><i class="iconfont">&#xe6a7;</i><cite>介绍</cite></a></li>
+                <li><a _href="./admission/info"><i class="iconfont">&#xe6a7;</i><cite>信息维护</cite></a></li>
               </ul>
             </li>
           </ul>

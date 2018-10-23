@@ -1,0 +1,2 @@
+spring自动注入是按照类名命名（不带package名），所以存在类命名冲突，特此记录。
+后台类名("admin/admissionController")

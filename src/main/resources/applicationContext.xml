@@ -43,7 +43,7 @@
   <mvc:annotation-driven />
   
   <!--配置注解扫描器-->
-  <context:component-scan base-package="com.da.admin.*"/>
+  <context:component-scan base-package="com.da.admin.controller"/>
   <context:component-scan base-package="com.da.controller"/>
   <context:component-scan base-package="com.da.service"/>
   <context:component-scan base-package="com.da.dao"/>

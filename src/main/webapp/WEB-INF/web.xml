@@ -50,7 +50,7 @@
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
- 
+
   <servlet>
     <servlet-name>dispatcherServlet</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -75,4 +75,9 @@
     <error-code>404</error-code>
     <location>/404.jsp</location>
   </error-page>
+  <!-- 解决nginx反向代理时不显示ico图标 -->
+  <mime-mapping>
+    <extension>ico</extension>
+    <mime-type>image/x-icon</mime-type>
+  </mime-mapping>
 </web-app>
